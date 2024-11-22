@@ -1,5 +1,5 @@
 import streamlit as st
-
+import pandas as pd
 
 # Define possible models in a dict.
 # Format of the dict: model name -> model code
@@ -24,7 +24,7 @@ def show():
 
         st.write("## Input data")
         inputs["data_format"] = st.selectbox(
-            "What best describes your input data?", ("Numpy arrays", "Image files")
+            "What best describes your input data?", ("Numpy arrays", "Image files", "CSV file")
         )
         if inputs["data_format"] == "Numpy arrays":
             st.write(
@@ -51,10 +51,18 @@ def show():
                 See also [this example dir](https://github.com/jrieke/traingenerator/tree/main/data/image-data)
                 """
             )
+        elif inputs["data_format"] == "CSV file":
+            uploaded_file = st.file_uploader("Upload your CSV file", type="csv")
+            if uploaded_file is not None:
+                try:
+                    data = pd.read_csv(uploaded_file)
+                    inputs["csv_data"] = data
+                    st.write("Preview of the uploaded CSV file:")
+                    st.write(data.head())
+                except Exception as e:
+                    st.error(f"Error reading the CSV file: {e}")
 
         st.write("## Preprocessing")
-        # st.checkbox("Convert to grayscale")
-        # st.checkbox("Convert to RGB", True)
         if inputs["data_format"] == "Image files":
             inputs["resize_pixels"] = st.number_input(
                 "Resize images to... (required for image files)", 1, None, 28
@@ -70,35 +78,23 @@ def show():
         st.write("## Training")
         st.write("No additional parameters")
 
-        st.write("## Visualizations")
-        inputs["visualization_tool"] = st.selectbox(
-            "How to log metrics?", ("Not at all", "Tensorboard", "comet.ml")
-        )
-        if inputs["visualization_tool"] == "comet.ml":
-            # TODO: Add a tracker how many people click on this link.
-            "[Sign up for comet.ml](https://www.comet.ml/) :comet: "
-            inputs["comet_api_key"] = st.text_input("Comet API key (required)")
-            inputs["comet_project"] = st.text_input("Comet project name (optional)")
-        elif inputs["visualization_tool"] == "Tensorboard":
-            st.markdown(
-                "<sup>Logs are saved to timestamped dir in `./logs`. View by running: `tensorboard --logdir=./logs`</sup>",
-                unsafe_allow_html=True,
-            )
-
-    # "Which plots do you want to add?"
-    # # TODO: Show some examples.
-    # st.checkbox("Sample images", True)
-    # st.checkbox("Confusion matrix", True)
-
-    # "## Saving"
-    # st.checkbox("Save config file", True)
-    # st.checkbox("Save console output", True)
-    # st.checkbox("Save finished model", True)
-    # if model in TORCH_MODELS:
-    #     st.checkbox("Save checkpoint after each epoch", True)
+        # st.write("## Visualizations")
+        # inputs["visualization_tool"] = st.selectbox(
+        #     "How to log metrics?", ("Not at all", "Tensorboard", "comet.ml")
+        # )
+        # if inputs["visualization_tool"] == "comet.ml":
+        #     "[Sign up for comet.ml](https://www.comet.ml/) :comet: "
+        #     inputs["comet_api_key"] = st.text_input("Comet API key (required)")
+        #     inputs["comet_project"] = st.text_input("Comet project name (optional)")
+        # elif inputs["visualization_tool"] == "Tensorboard":
+        #     st.markdown(
+        #         "<sup>Logs are saved to timestamped dir in `./logs`. View by running: `tensorboard --logdir=./logs`</sup>",
+        #         unsafe_allow_html=True,
+        #     )
 
     return inputs
 
 
 if __name__ == "__main__":
-    show()
+    inputs = show()
+    st.write("Collected inputs:", inputs)

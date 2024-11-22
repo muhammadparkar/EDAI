@@ -1,9 +1,3 @@
-"""
-Runs the streamlit app. 
-
-Call this file in the terminal (from the `traingenerator` dir) 
-via `streamlit run app/main.py`.
-"""
 
 import streamlit as st
 from jinja2 import Environment, FileSystemLoader
@@ -12,17 +6,10 @@ from github import Github
 from dotenv import load_dotenv
 import os
 import collections
-
 import utils
 
 
-MAGE_EMOJI_URL = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/259/mage_1f9d9.png"
 
-
-# Set page title and favicon.
-st.set_page_config(
-    page_title="Traingenerator", page_icon=MAGE_EMOJI_URL,
-)
 
 
 # Set up github access for "Open in Colab" button.
@@ -51,7 +38,7 @@ else:
 
 # Display header.
 st.markdown("<br>", unsafe_allow_html=True)
-st.image(MAGE_EMOJI_URL, width=80)
+
 
 """
 # Code Generator for Machine Learning

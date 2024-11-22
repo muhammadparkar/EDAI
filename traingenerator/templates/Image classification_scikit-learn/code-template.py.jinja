@@ -5,7 +5,7 @@
 {%- else %}
 #
 {%- endif %}
- pip install numpy sklearn{% if data_format == "Image files" %} torchvision{% endif %}{% if visualization_tool == "Tensorboard" %} tensorboardX{% endif %}{% if visualization_tool == "comet.ml" %} comet_ml{% endif %}
+ pip install numpy sklearn pandas{% if data_format == "Image files" %} torchvision{% endif %}{% if visualization_tool == "Tensorboard" %} tensorboardX{% endif %}{% if visualization_tool == "comet.ml" %} comet_ml{% endif %}
 {% if notebook %}
 
 
@@ -17,6 +17,7 @@
 from comet_ml import Experiment  # has to be 1st import
 {% endif %}
 import numpy as np
+import pandas as pd
 import sklearn
 from {{ ".".join(model_func.split(".")[:-1]) }} import {{ model_func.split(".")[-1] }}
 {% if data_format == "Image files" %}
@@ -68,6 +69,21 @@ test_data = None          # optional
 train_data = "data/image-data"  # required
 val_data = "data/image-data"    # optional
 test_data = None                # optional
+{% elif data_format == "CSV file" %}
+# INSERT YOUR DATA HERE
+# Expected format: A CSV file with features and a target column.
+# For example:
+# feature1,feature2,feature3,target
+# 0.5,1.2,0.7,0
+# 1.1,0.8,0.6,1
+# ...
+# Replace the paths with your own CSV file paths.
+train_data = pd.read_csv("path/to/train.csv")  # required
+val_data = pd.read_csv("path/to/val.csv")      # optional
+test_data = pd.read_csv("path/to/test.csv")    # optional
+
+# Specify the target column name.
+target_column = "target"
 {% endif %}
 
 {% if visualization_tool == "Tensorboard" %}
@@ -110,9 +126,15 @@ def preprocess(data, name):
     {% elif data_format == "Numpy arrays" %}
     images, labels = data
 
+    {% elif data_format == "CSV file" %}
+    # Extract features and labels from CSV.
+    labels = data[target_column].values
+    images = data.drop(columns=[target_column]).values
+
     {% endif %}
-    # Flatten.
-    images = images.reshape(len(images), -1)
+    # Flatten (if applicable).
+    if len(images.shape) > 2:
+        images = images.reshape(len(images), -1)
 
     {% if scale_mean_std %}
     # Scale to mean 0 and std 1.
