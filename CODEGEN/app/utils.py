@@ -97,24 +97,7 @@ def download_button(
     download_link(your_str, 'YOUR_STRING.txt', 'Click to download text!')
 
     """
-    # if pickle_it:
-    #     try:
-    #         object_to_download = pickle.dumps(object_to_download)
-    #     except pickle.PicklingError as e:
-    #         st.write(e)
-    #         return None
-
-    # else:
-    #     if isinstance(object_to_download, bytes):
-    #         pass
-
-    #     elif isinstance(object_to_download, pd.DataFrame):
-    #         object_to_download = object_to_download.to_csv(index=False)
-
-    #     # Try JSON encode for everything else
-    #     else:
-    #         object_to_download = json.dumps(object_to_download)
-
+    
     try:
         # some strings <-> bytes conversions necessary here
         b64 = base64.b64encode(object_to_download.encode()).decode()
@@ -156,21 +139,5 @@ def download_button(
         custom_css
         + f'<a download="{download_filename}" id="{button_id}" href="data:file/txt;base64,{b64}">{button_text}</a><br><br>'
     )
-    # dl_link = f'<a download="{download_filename}" id="{button_id}" href="data:file/txt;base64,{b64}"><input type="button" kind="primary" value="{button_text}"></a><br></br>'
 
     st.markdown(dl_link, unsafe_allow_html=True)
-
-
-# def download_link(
-#     content, label="Download", filename="file.txt", mimetype="text/plain"
-# ):
-#     """Create a HTML link to download a string as a file."""
-#     # From: https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806/9
-#     b64 = base64.b64encode(
-#         content.encode()
-#     ).decode()  # some strings <-> bytes conversions necessary here
-#     href = (
-#         f'<a href="data:{mimetype};base64,{b64}" download="{filename}">{label}</a>'
-#     )
-#     return href
-

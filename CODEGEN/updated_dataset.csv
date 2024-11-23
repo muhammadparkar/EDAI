@@ -1,0 +1,1001 @@
+Library_Imports,Data_Type,Preprocessing_Techniques,Model_Type,Optimizer,Loss_Function,Epochs,Batch_Size,Validation_Technique,Evaluation_Metrics,Code_ID
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,SGD,categorical_crossentropy,18,16,Cross-Validation,Accuracy,code_001.py
+"tensorflow, scikit-learn",Tabular,Scaling,Random Forest,SGD,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_002.py
+"pandas, scikit-learn",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,20,16,Cross-Validation,Accuracy,code_003.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,32,Cross-Validation,"Precision, Recall",code_004.py
+"tensorflow, scikit-learn",Image,Image Augmentation,Transformer,,,15,16,,Accuracy,code_005.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,Adam,categorical_crossentropy,10,64,Validation Split,"Accuracy, Recall",code_006.py
+"tensorflow, scikit-learn",Tabular,Tokenization,RNN,SGD,categorical_crossentropy,15,64,Validation Split,"Accuracy, Recall",code_007.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,Adam,mean_squared_error,20,32,Validation Split,"Accuracy, Recall",code_008.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,RMSprop,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_009.py
+"tensorflow, keras",Tabular,Scaling,Transformer,RMSprop,mean_squared_error,12,64,Cross-Validation,Accuracy,code_010.py
+"pandas, tensorflow, transformers",Tabular,Scaling,RNN,,,18,32,,"Accuracy, Precision",code_011.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,18,16,Cross-Validation,"Precision, Recall",code_012.py
+"pandas, tensorflow, transformers",Tabular,Scaling,RNN,SGD,mean_squared_error,20,16,Cross-Validation,"Precision, Recall",code_013.py
+"tensorflow, scikit-learn",Image,Scaling,CNN,Adam,mean_squared_error,25,64,Cross-Validation,"Accuracy, Recall",code_014.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,SGD,mean_squared_error,25,32,Cross-Validation,"Precision, Recall",code_015.py
+"tensorflow, keras",Image,Tokenization,CNN,,,25,32,,"Precision, Recall",code_016.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,Adam,mean_squared_error,25,64,Validation Split,"Precision, Recall",code_017.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,,,20,32,,"Accuracy, Precision",code_018.py
+"tensorflow, keras",Text,Image Augmentation,CNN,,,12,64,,"Accuracy, Recall",code_019.py
+"tensorflow, numpy",Audio,Image Augmentation,Transformer,SGD,mean_squared_error,18,64,Validation Split,Accuracy,code_020.py
+"tensorflow, keras, sklearn",Text,Tokenization,Transformer,,,12,32,,"Accuracy, Recall",code_021.py
+"tensorflow, numpy",Image,Tokenization,CNN,SGD,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_022.py
+"pandas, tensorflow, transformers",Audio,Scaling,Transformer,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_023.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,RNN,,,20,16,,"Precision, Recall",code_024.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Transformer,RMSprop,mean_squared_error,12,32,Cross-Validation,"Accuracy, Precision",code_025.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,RNN,,,12,16,,Accuracy,code_026.py
+"tensorflow, keras",Image,Image Augmentation,RNN,Adam,categorical_crossentropy,10,32,Cross-Validation,Accuracy,code_027.py
+"tensorflow, keras",Tabular,Scaling,Transformer,,,18,32,,"Precision, Recall",code_028.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,RMSprop,categorical_crossentropy,25,64,Validation Split,"Precision, Recall",code_029.py
+"tensorflow, keras",Text,Tokenization,CNN,SGD,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Precision",code_030.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,CNN,,,15,64,,"Accuracy, Recall",code_031.py
+"tensorflow, scikit-learn",Image,Image Augmentation,RNN,RMSprop,categorical_crossentropy,15,16,Cross-Validation,Accuracy,code_032.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,RNN,Adam,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_033.py
+"tensorflow, keras",Image,Scaling,Random Forest,RMSprop,categorical_crossentropy,20,64,Validation Split,"Accuracy, Recall",code_034.py
+"pandas, tensorflow, transformers",Tabular,Scaling,Random Forest,RMSprop,mean_squared_error,25,64,Validation Split,"Accuracy, Recall",code_035.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,Adam,categorical_crossentropy,20,64,Cross-Validation,Accuracy,code_036.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,CNN,,,12,16,,"Precision, Recall",code_037.py
+"pandas, scikit-learn",Audio,Image Augmentation,CNN,,,15,16,,"Accuracy, Recall",code_038.py
+"tensorflow, numpy",Text,Image Augmentation,Transformer,RMSprop,mean_squared_error,8,32,Cross-Validation,Accuracy,code_039.py
+"pandas, tensorflow, transformers",Text,Tokenization,RNN,RMSprop,mean_squared_error,10,32,Cross-Validation,"Precision, Recall",code_040.py
+"pandas, tensorflow, transformers",Text,Scaling,Transformer,SGD,categorical_crossentropy,10,32,Validation Split,Accuracy,code_041.py
+"tensorflow, numpy",Tabular,Image Augmentation,RNN,RMSprop,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_042.py
+"pandas, scikit-learn",Text,Tokenization,RNN,SGD,categorical_crossentropy,25,32,Validation Split,"Accuracy, Recall",code_043.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,RMSprop,categorical_crossentropy,20,32,Validation Split,Accuracy,code_044.py
+"tensorflow, scikit-learn",Tabular,Image Augmentation,Transformer,,,10,64,,"Accuracy, Recall",code_045.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,RNN,RMSprop,mean_squared_error,15,32,Cross-Validation,Accuracy,code_046.py
+"pandas, tensorflow, transformers",Text,Scaling,RNN,SGD,categorical_crossentropy,8,32,Cross-Validation,"Accuracy, Recall",code_047.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Random Forest,RMSprop,categorical_crossentropy,15,64,Validation Split,Accuracy,code_048.py
+"pandas, scikit-learn",Tabular,Scaling,Transformer,Adam,mean_squared_error,8,16,Cross-Validation,"Accuracy, Precision",code_049.py
+"pandas, tensorflow, transformers",Text,Tokenization,CNN,SGD,mean_squared_error,8,64,Cross-Validation,"Accuracy, Precision",code_050.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,RMSprop,mean_squared_error,25,64,Validation Split,"Precision, Recall",code_051.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,CNN,SGD,mean_squared_error,20,64,Cross-Validation,"Precision, Recall",code_052.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,Adam,mean_squared_error,15,32,Validation Split,Accuracy,code_053.py
+"tensorflow, keras, sklearn",Text,Image Augmentation,Random Forest,,,18,16,,Accuracy,code_054.py
+"tensorflow, scikit-learn",Text,Tokenization,Transformer,SGD,categorical_crossentropy,20,64,Cross-Validation,Accuracy,code_055.py
+"tensorflow, numpy",Image,Scaling,Transformer,Adam,mean_squared_error,12,32,Validation Split,"Accuracy, Precision",code_056.py
+"tensorflow, keras, sklearn",Image,Tokenization,Random Forest,RMSprop,mean_squared_error,20,16,Cross-Validation,Accuracy,code_057.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,RMSprop,categorical_crossentropy,8,16,Validation Split,"Accuracy, Recall",code_058.py
+"tensorflow, numpy",Tabular,Tokenization,CNN,RMSprop,mean_squared_error,18,32,Validation Split,Accuracy,code_059.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,,,8,64,,"Precision, Recall",code_060.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,Random Forest,,,15,16,,"Accuracy, Precision",code_061.py
+"tensorflow, scikit-learn",Tabular,Tokenization,CNN,Adam,categorical_crossentropy,8,16,Cross-Validation,Accuracy,code_062.py
+"tensorflow, numpy",Text,Image Augmentation,Random Forest,RMSprop,mean_squared_error,20,32,Cross-Validation,"Accuracy, Recall",code_063.py
+"tensorflow, scikit-learn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,15,32,Validation Split,"Accuracy, Precision",code_064.py
+"pandas, scikit-learn",Text,Image Augmentation,Random Forest,Adam,mean_squared_error,25,64,Validation Split,Accuracy,code_065.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,RMSprop,mean_squared_error,25,64,Validation Split,"Accuracy, Recall",code_066.py
+"tensorflow, numpy",Audio,Image Augmentation,Random Forest,RMSprop,categorical_crossentropy,8,32,Cross-Validation,"Precision, Recall",code_067.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,SGD,mean_squared_error,15,32,Validation Split,"Accuracy, Recall",code_068.py
+"tensorflow, keras, sklearn",Image,Image Augmentation,CNN,SGD,mean_squared_error,8,64,Validation Split,Accuracy,code_069.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,,,10,64,,"Accuracy, Precision",code_070.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,SGD,categorical_crossentropy,15,16,Validation Split,"Accuracy, Precision",code_071.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,Adam,categorical_crossentropy,18,32,Cross-Validation,Accuracy,code_072.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,Random Forest,SGD,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Precision",code_073.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,,,8,64,,"Accuracy, Precision",code_074.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,SGD,mean_squared_error,18,64,Validation Split,"Accuracy, Recall",code_075.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Random Forest,SGD,mean_squared_error,25,64,Validation Split,Accuracy,code_076.py
+"pandas, scikit-learn",Tabular,Tokenization,RNN,,,10,16,,"Accuracy, Recall",code_077.py
+"tensorflow, numpy",Image,Scaling,Transformer,Adam,categorical_crossentropy,20,16,Cross-Validation,"Accuracy, Precision",code_078.py
+"tensorflow, numpy",Text,Image Augmentation,CNN,,,20,16,,"Precision, Recall",code_079.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,,,25,64,,"Precision, Recall",code_080.py
+"pandas, scikit-learn",Text,Tokenization,RNN,,,12,64,,"Accuracy, Recall",code_081.py
+"tensorflow, scikit-learn",Text,Scaling,RNN,,,10,16,,Accuracy,code_082.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,Adam,mean_squared_error,18,16,Validation Split,"Accuracy, Precision",code_083.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,,,8,16,,"Precision, Recall",code_084.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,CNN,RMSprop,mean_squared_error,12,16,Validation Split,"Accuracy, Recall",code_085.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Random Forest,Adam,mean_squared_error,8,64,Cross-Validation,"Accuracy, Recall",code_086.py
+"tensorflow, scikit-learn",Text,Scaling,Transformer,RMSprop,categorical_crossentropy,12,32,Validation Split,"Accuracy, Precision",code_087.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,,,18,32,,"Accuracy, Recall",code_088.py
+"tensorflow, keras, sklearn",Image,Tokenization,CNN,SGD,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_089.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,Adam,mean_squared_error,10,32,Cross-Validation,"Precision, Recall",code_090.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Precision",code_091.py
+"tensorflow, keras",Text,Scaling,CNN,RMSprop,categorical_crossentropy,25,32,Validation Split,"Accuracy, Recall",code_092.py
+"tensorflow, keras, sklearn",Text,Image Augmentation,RNN,Adam,mean_squared_error,20,64,Cross-Validation,"Accuracy, Recall",code_093.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Random Forest,Adam,categorical_crossentropy,20,32,Cross-Validation,"Accuracy, Recall",code_094.py
+"tensorflow, keras",Text,Scaling,RNN,Adam,mean_squared_error,12,16,Cross-Validation,Accuracy,code_095.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,,,15,64,,"Accuracy, Precision",code_096.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,RNN,SGD,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Precision",code_097.py
+"tensorflow, keras",Text,Tokenization,CNN,RMSprop,mean_squared_error,18,16,Validation Split,"Accuracy, Recall",code_098.py
+"tensorflow, keras",Audio,Scaling,Random Forest,SGD,categorical_crossentropy,15,16,Cross-Validation,"Precision, Recall",code_099.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,CNN,Adam,categorical_crossentropy,18,16,Validation Split,"Accuracy, Recall",code_100.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,SGD,categorical_crossentropy,25,32,Cross-Validation,Accuracy,code_101.py
+"tensorflow, keras, sklearn",Audio,Tokenization,Transformer,Adam,categorical_crossentropy,8,64,Cross-Validation,Accuracy,code_102.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Random Forest,,,25,16,,"Precision, Recall",code_103.py
+"tensorflow, numpy",Image,Image Augmentation,Random Forest,Adam,mean_squared_error,25,16,Validation Split,"Accuracy, Precision",code_104.py
+"tensorflow, numpy",Tabular,Image Augmentation,CNN,SGD,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_105.py
+"tensorflow, numpy",Tabular,Image Augmentation,RNN,,,10,16,,Accuracy,code_106.py
+"tensorflow, numpy",Audio,Tokenization,Random Forest,RMSprop,categorical_crossentropy,25,32,Cross-Validation,Accuracy,code_107.py
+"tensorflow, keras",Image,Image Augmentation,CNN,,,15,16,,Accuracy,code_108.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Random Forest,Adam,categorical_crossentropy,15,16,Validation Split,"Accuracy, Precision",code_109.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Transformer,SGD,categorical_crossentropy,10,16,Validation Split,"Precision, Recall",code_110.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,RNN,,,10,64,,Accuracy,code_111.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,25,64,Cross-Validation,"Accuracy, Precision",code_112.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,RMSprop,categorical_crossentropy,15,32,Cross-Validation,Accuracy,code_113.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Precision",code_114.py
+"tensorflow, keras, sklearn",Text,Image Augmentation,Transformer,SGD,mean_squared_error,18,64,Cross-Validation,"Accuracy, Recall",code_115.py
+"tensorflow, keras",Image,Tokenization,CNN,Adam,mean_squared_error,25,64,Validation Split,Accuracy,code_116.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,CNN,Adam,categorical_crossentropy,10,64,Cross-Validation,"Precision, Recall",code_117.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,Transformer,Adam,mean_squared_error,25,32,Validation Split,"Accuracy, Recall",code_118.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,18,16,Validation Split,"Accuracy, Precision",code_119.py
+"tensorflow, scikit-learn",Audio,Tokenization,CNN,,,8,64,,"Accuracy, Precision",code_120.py
+"pandas, scikit-learn",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,"Accuracy, Recall",code_121.py
+"tensorflow, numpy",Audio,Scaling,Transformer,Adam,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_122.py
+"pandas, scikit-learn",Audio,Tokenization,CNN,SGD,mean_squared_error,10,16,Validation Split,"Precision, Recall",code_123.py
+"tensorflow, numpy",Tabular,Scaling,CNN,RMSprop,categorical_crossentropy,25,32,Validation Split,"Accuracy, Precision",code_124.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,SGD,mean_squared_error,12,16,Validation Split,"Precision, Recall",code_125.py
+"tensorflow, keras",Image,Image Augmentation,CNN,,,15,32,,"Accuracy, Recall",code_126.py
+"tensorflow, keras",Audio,Image Augmentation,Random Forest,,,18,32,,"Accuracy, Precision",code_127.py
+"tensorflow, keras",Text,Tokenization,RNN,RMSprop,categorical_crossentropy,12,64,Cross-Validation,"Accuracy, Recall",code_128.py
+"tensorflow, keras",Audio,Scaling,Random Forest,Adam,mean_squared_error,12,32,Cross-Validation,"Accuracy, Precision",code_129.py
+"tensorflow, numpy",Text,Tokenization,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,Accuracy,code_130.py
+"pandas, scikit-learn",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Recall",code_131.py
+"tensorflow, keras, sklearn",Audio,Scaling,Random Forest,SGD,categorical_crossentropy,15,64,Validation Split,"Precision, Recall",code_132.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,CNN,,,18,64,,Accuracy,code_133.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,RNN,,,8,16,,"Accuracy, Precision",code_134.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Transformer,Adam,mean_squared_error,25,32,Validation Split,Accuracy,code_135.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Transformer,Adam,mean_squared_error,18,32,Cross-Validation,Accuracy,code_136.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,RNN,Adam,categorical_crossentropy,10,64,Cross-Validation,"Accuracy, Precision",code_137.py
+"tensorflow, scikit-learn",Image,Image Augmentation,Transformer,Adam,mean_squared_error,20,64,Validation Split,"Precision, Recall",code_138.py
+"tensorflow, numpy",Tabular,Scaling,Transformer,RMSprop,categorical_crossentropy,20,32,Validation Split,Accuracy,code_139.py
+"tensorflow, keras",Audio,Image Augmentation,CNN,,,12,64,,"Precision, Recall",code_140.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,,,12,64,,"Accuracy, Recall",code_141.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,RNN,RMSprop,mean_squared_error,12,16,Cross-Validation,"Accuracy, Recall",code_142.py
+"tensorflow, keras",Text,Scaling,Transformer,Adam,mean_squared_error,15,16,Cross-Validation,"Accuracy, Precision",code_143.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,RNN,SGD,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_144.py
+"tensorflow, numpy",Image,Tokenization,Transformer,RMSprop,categorical_crossentropy,8,64,Validation Split,Accuracy,code_145.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,Transformer,Adam,categorical_crossentropy,8,32,Cross-Validation,"Accuracy, Recall",code_146.py
+"tensorflow, scikit-learn",Tabular,Tokenization,RNN,,,12,64,,"Accuracy, Recall",code_147.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,,,12,32,,"Accuracy, Precision",code_148.py
+"tensorflow, keras",Audio,Tokenization,CNN,,,18,32,,Accuracy,code_149.py
+"tensorflow, keras",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,20,16,Cross-Validation,"Precision, Recall",code_150.py
+"tensorflow, numpy",Image,Tokenization,Random Forest,,,20,32,,"Accuracy, Recall",code_151.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Random Forest,Adam,categorical_crossentropy,25,32,Validation Split,"Accuracy, Precision",code_152.py
+"pandas, scikit-learn",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,8,64,Validation Split,"Accuracy, Precision",code_153.py
+"tensorflow, numpy",Text,Image Augmentation,CNN,,,18,64,,"Accuracy, Precision",code_154.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,SGD,mean_squared_error,8,32,Cross-Validation,Accuracy,code_155.py
+"tensorflow, keras, sklearn",Text,Tokenization,RNN,,,10,16,,"Accuracy, Precision",code_156.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,RNN,Adam,categorical_crossentropy,18,16,Validation Split,Accuracy,code_157.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,CNN,Adam,mean_squared_error,8,32,Validation Split,"Precision, Recall",code_158.py
+"tensorflow, keras",Text,Scaling,CNN,RMSprop,mean_squared_error,18,32,Validation Split,"Precision, Recall",code_159.py
+"tensorflow, scikit-learn",Text,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,18,64,Cross-Validation,"Accuracy, Precision",code_160.py
+"tensorflow, keras, sklearn",Text,Tokenization,Random Forest,,,12,32,,"Accuracy, Recall",code_161.py
+"tensorflow, keras",Image,Scaling,CNN,RMSprop,mean_squared_error,15,32,Validation Split,"Accuracy, Recall",code_162.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,,,20,64,,Accuracy,code_163.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,Transformer,SGD,categorical_crossentropy,10,64,Cross-Validation,"Precision, Recall",code_164.py
+"pandas, scikit-learn",Audio,Tokenization,CNN,Adam,categorical_crossentropy,25,16,Validation Split,Accuracy,code_165.py
+"pandas, tensorflow, transformers",Tabular,Scaling,Transformer,SGD,categorical_crossentropy,18,16,Cross-Validation,"Accuracy, Precision",code_166.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,10,64,Cross-Validation,Accuracy,code_167.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,,,15,64,,Accuracy,code_168.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Random Forest,,,15,64,,"Accuracy, Precision",code_169.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,20,16,Validation Split,"Precision, Recall",code_170.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,Adam,mean_squared_error,15,16,Cross-Validation,"Accuracy, Precision",code_171.py
+"tensorflow, keras",Tabular,Scaling,RNN,,,25,64,,"Precision, Recall",code_172.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,Adam,mean_squared_error,18,32,Cross-Validation,"Accuracy, Precision",code_173.py
+"tensorflow, numpy",Text,Image Augmentation,Random Forest,,,25,16,,Accuracy,code_174.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,SGD,mean_squared_error,12,16,Cross-Validation,Accuracy,code_175.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,,,15,16,,Accuracy,code_176.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Transformer,RMSprop,mean_squared_error,8,16,Cross-Validation,"Precision, Recall",code_177.py
+"pandas, scikit-learn",Text,Tokenization,RNN,Adam,categorical_crossentropy,12,16,Validation Split,Accuracy,code_178.py
+"tensorflow, numpy",Tabular,Tokenization,Transformer,,,10,16,,"Accuracy, Precision",code_179.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,,,10,64,,"Precision, Recall",code_180.py
+"tensorflow, scikit-learn",Image,Scaling,CNN,RMSprop,categorical_crossentropy,10,64,Cross-Validation,Accuracy,code_181.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,RNN,SGD,categorical_crossentropy,10,32,Validation Split,Accuracy,code_182.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,Random Forest,SGD,mean_squared_error,25,32,Validation Split,Accuracy,code_183.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Random Forest,SGD,categorical_crossentropy,8,32,Validation Split,Accuracy,code_184.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,CNN,Adam,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_185.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,Adam,mean_squared_error,12,64,Cross-Validation,"Precision, Recall",code_186.py
+"tensorflow, keras",Text,Tokenization,Random Forest,SGD,categorical_crossentropy,20,64,Cross-Validation,"Precision, Recall",code_187.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,,,20,32,,"Accuracy, Precision",code_188.py
+"pandas, tensorflow, transformers",Image,Scaling,CNN,Adam,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Recall",code_189.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,,,12,32,,"Accuracy, Recall",code_190.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Random Forest,,,8,64,,"Precision, Recall",code_191.py
+"tensorflow, scikit-learn",Text,Tokenization,Transformer,Adam,categorical_crossentropy,10,64,Validation Split,"Accuracy, Precision",code_192.py
+"pandas, scikit-learn",Image,Scaling,CNN,RMSprop,categorical_crossentropy,18,64,Cross-Validation,"Precision, Recall",code_193.py
+"pandas, scikit-learn",Image,Image Augmentation,Random Forest,Adam,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_194.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,RNN,RMSprop,categorical_crossentropy,15,64,Cross-Validation,"Accuracy, Recall",code_195.py
+"tensorflow, keras",Image,Scaling,Random Forest,RMSprop,mean_squared_error,25,32,Validation Split,"Accuracy, Precision",code_196.py
+"pandas, scikit-learn",Audio,Image Augmentation,Random Forest,Adam,mean_squared_error,10,16,Cross-Validation,"Precision, Recall",code_197.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,Adam,categorical_crossentropy,18,64,Validation Split,"Accuracy, Recall",code_198.py
+"pandas, tensorflow, transformers",Text,Scaling,CNN,SGD,categorical_crossentropy,18,64,Validation Split,"Accuracy, Recall",code_199.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,,,18,16,,Accuracy,code_200.py
+"tensorflow, numpy",Image,Scaling,Random Forest,,,8,16,,"Accuracy, Recall",code_201.py
+"tensorflow, numpy",Audio,Tokenization,RNN,Adam,mean_squared_error,25,16,Validation Split,"Accuracy, Recall",code_202.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Random Forest,RMSprop,categorical_crossentropy,20,32,Cross-Validation,Accuracy,code_203.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,Adam,mean_squared_error,20,32,Cross-Validation,"Precision, Recall",code_204.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,RMSprop,mean_squared_error,25,64,Validation Split,"Accuracy, Precision",code_205.py
+"pandas, scikit-learn",Text,Scaling,RNN,,,12,32,,"Precision, Recall",code_206.py
+"tensorflow, scikit-learn",Audio,Tokenization,Transformer,Adam,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_207.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,,,20,16,,"Accuracy, Precision",code_208.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,Random Forest,Adam,categorical_crossentropy,12,32,Validation Split,Accuracy,code_209.py
+"tensorflow, scikit-learn",Text,Scaling,RNN,,,25,64,,"Precision, Recall",code_210.py
+"pandas, tensorflow, transformers",Image,Scaling,RNN,,,25,32,,Accuracy,code_211.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,20,16,Validation Split,Accuracy,code_212.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,Random Forest,SGD,categorical_crossentropy,18,32,Validation Split,"Precision, Recall",code_213.py
+"tensorflow, keras",Text,Scaling,Transformer,,,18,32,,"Precision, Recall",code_214.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,Random Forest,Adam,categorical_crossentropy,8,64,Validation Split,"Accuracy, Recall",code_215.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,,,15,16,,"Accuracy, Precision",code_216.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Transformer,RMSprop,categorical_crossentropy,25,16,Cross-Validation,Accuracy,code_217.py
+"pandas, scikit-learn",Image,Image Augmentation,Transformer,RMSprop,mean_squared_error,10,64,Validation Split,Accuracy,code_218.py
+"tensorflow, keras",Tabular,Tokenization,Transformer,Adam,mean_squared_error,8,64,Validation Split,"Precision, Recall",code_219.py
+"tensorflow, numpy",Text,Scaling,Random Forest,RMSprop,mean_squared_error,25,16,Cross-Validation,Accuracy,code_220.py
+"tensorflow, numpy",Text,Image Augmentation,RNN,Adam,categorical_crossentropy,15,64,Validation Split,"Accuracy, Recall",code_221.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,Adam,categorical_crossentropy,10,32,Cross-Validation,"Precision, Recall",code_222.py
+"tensorflow, scikit-learn",Audio,Scaling,Transformer,RMSprop,categorical_crossentropy,15,64,Validation Split,Accuracy,code_223.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,,,15,16,,Accuracy,code_224.py
+"tensorflow, keras",Image,Image Augmentation,RNN,,,10,64,,"Accuracy, Recall",code_225.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Transformer,SGD,mean_squared_error,10,32,Cross-Validation,"Precision, Recall",code_226.py
+"pandas, scikit-learn",Image,Image Augmentation,Transformer,SGD,categorical_crossentropy,20,32,Validation Split,"Precision, Recall",code_227.py
+"pandas, tensorflow, transformers",Text,Scaling,Random Forest,RMSprop,categorical_crossentropy,20,32,Cross-Validation,"Accuracy, Recall",code_228.py
+"pandas, scikit-learn",Audio,Image Augmentation,RNN,Adam,categorical_crossentropy,10,64,Validation Split,"Accuracy, Precision",code_229.py
+"tensorflow, numpy",Image,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_230.py
+"tensorflow, keras",Tabular,Scaling,CNN,Adam,categorical_crossentropy,25,16,Validation Split,"Accuracy, Recall",code_231.py
+"pandas, tensorflow, transformers",Audio,Scaling,CNN,Adam,mean_squared_error,25,32,Validation Split,"Accuracy, Precision",code_232.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,RNN,SGD,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_233.py
+"pandas, scikit-learn",Text,Image Augmentation,RNN,,,8,64,,Accuracy,code_234.py
+"tensorflow, keras, sklearn",Audio,Tokenization,CNN,RMSprop,categorical_crossentropy,18,32,Cross-Validation,"Accuracy, Precision",code_235.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,Adam,mean_squared_error,20,64,Validation Split,"Accuracy, Precision",code_236.py
+"tensorflow, keras, sklearn",Audio,Scaling,RNN,,,18,32,,"Accuracy, Precision",code_237.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,RNN,Adam,mean_squared_error,18,32,Cross-Validation,"Accuracy, Precision",code_238.py
+"tensorflow, numpy",Text,Image Augmentation,RNN,,,25,16,,"Accuracy, Recall",code_239.py
+"pandas, scikit-learn",Text,Scaling,Random Forest,SGD,mean_squared_error,10,32,Cross-Validation,"Precision, Recall",code_240.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,SGD,mean_squared_error,8,16,Cross-Validation,Accuracy,code_241.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,RNN,SGD,mean_squared_error,12,64,Cross-Validation,Accuracy,code_242.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Random Forest,,,20,16,,"Accuracy, Precision",code_243.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,SGD,mean_squared_error,18,32,Cross-Validation,"Accuracy, Recall",code_244.py
+"tensorflow, keras",Tabular,Scaling,Transformer,,,8,32,,"Accuracy, Precision",code_245.py
+"tensorflow, keras",Text,Tokenization,Random Forest,SGD,categorical_crossentropy,8,16,Validation Split,"Accuracy, Recall",code_246.py
+"pandas, scikit-learn",Tabular,Image Augmentation,Random Forest,SGD,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Precision",code_247.py
+"tensorflow, scikit-learn",Audio,Tokenization,CNN,Adam,mean_squared_error,15,32,Validation Split,"Accuracy, Precision",code_248.py
+"pandas, tensorflow, transformers",Audio,Scaling,Random Forest,,,10,64,,Accuracy,code_249.py
+"tensorflow, scikit-learn",Tabular,Scaling,Transformer,,,8,64,,"Accuracy, Precision",code_250.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,RMSprop,mean_squared_error,20,64,Validation Split,"Precision, Recall",code_251.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,Adam,categorical_crossentropy,25,16,Cross-Validation,"Precision, Recall",code_252.py
+"tensorflow, keras, sklearn",Audio,Scaling,RNN,RMSprop,mean_squared_error,15,64,Cross-Validation,Accuracy,code_253.py
+"tensorflow, keras, sklearn",Tabular,Scaling,RNN,SGD,mean_squared_error,15,32,Validation Split,Accuracy,code_254.py
+"pandas, tensorflow, transformers",Text,Tokenization,CNN,,,10,64,,Accuracy,code_255.py
+"tensorflow, keras",Audio,Tokenization,Transformer,SGD,mean_squared_error,12,16,Validation Split,"Accuracy, Recall",code_256.py
+"pandas, scikit-learn",Image,Scaling,CNN,,,8,32,,"Precision, Recall",code_257.py
+"tensorflow, keras",Text,Tokenization,Transformer,Adam,categorical_crossentropy,18,64,Validation Split,"Accuracy, Recall",code_258.py
+"tensorflow, scikit-learn",Tabular,Scaling,Random Forest,,,12,64,,"Precision, Recall",code_259.py
+"tensorflow, scikit-learn",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,"Accuracy, Recall",code_260.py
+"tensorflow, keras, sklearn",Audio,Scaling,CNN,SGD,mean_squared_error,25,32,Cross-Validation,"Accuracy, Recall",code_261.py
+"pandas, scikit-learn",Tabular,Image Augmentation,CNN,,,18,16,,"Precision, Recall",code_262.py
+"tensorflow, scikit-learn",Text,Image Augmentation,Random Forest,,,12,64,,"Accuracy, Recall",code_263.py
+"tensorflow, numpy",Audio,Image Augmentation,CNN,Adam,mean_squared_error,20,32,Cross-Validation,"Accuracy, Precision",code_264.py
+"tensorflow, numpy",Audio,Tokenization,CNN,,,8,32,,"Accuracy, Precision",code_265.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,CNN,,,10,64,,"Precision, Recall",code_266.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,,,15,32,,Accuracy,code_267.py
+"tensorflow, keras",Text,Scaling,RNN,,,12,16,,"Accuracy, Recall",code_268.py
+"pandas, scikit-learn",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_269.py
+"tensorflow, numpy",Text,Tokenization,Random Forest,RMSprop,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_270.py
+"tensorflow, numpy",Image,Image Augmentation,Transformer,Adam,categorical_crossentropy,15,32,Validation Split,"Accuracy, Precision",code_271.py
+"tensorflow, scikit-learn",Audio,Tokenization,RNN,SGD,mean_squared_error,8,32,Cross-Validation,"Accuracy, Recall",code_272.py
+"pandas, scikit-learn",Tabular,Tokenization,Transformer,SGD,categorical_crossentropy,25,64,Validation Split,Accuracy,code_273.py
+"tensorflow, numpy",Image,Tokenization,RNN,RMSprop,mean_squared_error,25,32,Validation Split,Accuracy,code_274.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Transformer,SGD,mean_squared_error,20,64,Validation Split,"Accuracy, Recall",code_275.py
+"pandas, scikit-learn",Tabular,Tokenization,CNN,Adam,categorical_crossentropy,18,16,Cross-Validation,Accuracy,code_276.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,CNN,,,25,32,,"Precision, Recall",code_277.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,64,Cross-Validation,"Accuracy, Recall",code_278.py
+"tensorflow, numpy",Text,Tokenization,Random Forest,,,18,16,,"Accuracy, Recall",code_279.py
+"tensorflow, scikit-learn",Tabular,Scaling,CNN,SGD,mean_squared_error,10,32,Cross-Validation,"Accuracy, Recall",code_280.py
+"tensorflow, numpy",Image,Image Augmentation,Random Forest,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_281.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,,,8,32,,Accuracy,code_282.py
+"tensorflow, scikit-learn",Tabular,Tokenization,CNN,SGD,mean_squared_error,25,32,Validation Split,"Accuracy, Precision",code_283.py
+"tensorflow, scikit-learn",Tabular,Scaling,Transformer,RMSprop,categorical_crossentropy,18,32,Cross-Validation,"Precision, Recall",code_284.py
+"tensorflow, keras",Text,Scaling,Random Forest,Adam,categorical_crossentropy,10,32,Validation Split,"Accuracy, Recall",code_285.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Transformer,SGD,mean_squared_error,20,64,Validation Split,"Accuracy, Recall",code_286.py
+"tensorflow, keras",Audio,Tokenization,Transformer,RMSprop,mean_squared_error,25,16,Validation Split,Accuracy,code_287.py
+"tensorflow, scikit-learn",Audio,Scaling,Random Forest,Adam,categorical_crossentropy,8,32,Cross-Validation,"Accuracy, Precision",code_288.py
+"tensorflow, numpy",Audio,Tokenization,Transformer,Adam,mean_squared_error,15,16,Validation Split,"Accuracy, Recall",code_289.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Random Forest,RMSprop,mean_squared_error,8,32,Validation Split,Accuracy,code_290.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,Random Forest,,,10,64,,Accuracy,code_291.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,CNN,SGD,mean_squared_error,12,64,Cross-Validation,"Accuracy, Precision",code_292.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,,,20,16,,"Accuracy, Precision",code_293.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,RNN,,,20,32,,Accuracy,code_294.py
+"pandas, tensorflow, transformers",Text,Tokenization,RNN,,,20,64,,"Accuracy, Recall",code_295.py
+"tensorflow, keras",Image,Image Augmentation,RNN,,,8,32,,"Accuracy, Precision",code_296.py
+"tensorflow, scikit-learn",Tabular,Tokenization,RNN,Adam,categorical_crossentropy,15,16,Validation Split,"Accuracy, Recall",code_297.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,12,16,Cross-Validation,"Accuracy, Precision",code_298.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,Random Forest,,,25,16,,Accuracy,code_299.py
+"tensorflow, keras",Audio,Scaling,CNN,,,10,64,,"Accuracy, Recall",code_300.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,CNN,SGD,mean_squared_error,20,16,Validation Split,"Accuracy, Precision",code_301.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,25,16,Cross-Validation,Accuracy,code_302.py
+"tensorflow, keras",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,15,64,Cross-Validation,"Accuracy, Recall",code_303.py
+"tensorflow, numpy",Text,Image Augmentation,Transformer,,,20,64,,"Accuracy, Recall",code_304.py
+"tensorflow, keras",Audio,Scaling,Random Forest,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Precision",code_305.py
+"tensorflow, keras",Audio,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,32,Validation Split,Accuracy,code_306.py
+"tensorflow, scikit-learn",Text,Tokenization,RNN,,,25,32,,"Accuracy, Recall",code_307.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,Adam,mean_squared_error,8,32,Cross-Validation,Accuracy,code_308.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,,,20,32,,"Accuracy, Precision",code_309.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,RNN,,,20,16,,"Accuracy, Recall",code_310.py
+"pandas, tensorflow, transformers",Image,Tokenization,Transformer,RMSprop,mean_squared_error,18,32,Cross-Validation,"Accuracy, Recall",code_311.py
+"pandas, scikit-learn",Tabular,Tokenization,Transformer,SGD,categorical_crossentropy,8,64,Validation Split,Accuracy,code_312.py
+"pandas, scikit-learn",Text,Scaling,Random Forest,SGD,categorical_crossentropy,10,32,Validation Split,"Accuracy, Recall",code_313.py
+"tensorflow, keras",Image,Image Augmentation,Transformer,SGD,mean_squared_error,12,32,Validation Split,"Accuracy, Recall",code_314.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,RNN,Adam,categorical_crossentropy,25,32,Validation Split,"Accuracy, Recall",code_315.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,CNN,,,15,64,,"Accuracy, Recall",code_316.py
+"tensorflow, numpy",Tabular,Tokenization,Random Forest,,,18,16,,"Accuracy, Precision",code_317.py
+"tensorflow, keras",Text,Image Augmentation,Transformer,Adam,categorical_crossentropy,20,64,Validation Split,Accuracy,code_318.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Transformer,Adam,mean_squared_error,10,64,Cross-Validation,"Accuracy, Precision",code_319.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Transformer,SGD,categorical_crossentropy,25,64,Validation Split,"Precision, Recall",code_320.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,Adam,mean_squared_error,18,16,Validation Split,"Accuracy, Recall",code_321.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,CNN,Adam,mean_squared_error,10,64,Validation Split,"Accuracy, Precision",code_322.py
+"tensorflow, keras, sklearn",Image,Tokenization,Random Forest,,,8,16,,"Precision, Recall",code_323.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,RNN,,,20,64,,"Accuracy, Recall",code_324.py
+"pandas, scikit-learn",Audio,Tokenization,Transformer,SGD,mean_squared_error,8,16,Validation Split,"Accuracy, Precision",code_325.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,CNN,,,18,64,,Accuracy,code_326.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,Random Forest,Adam,mean_squared_error,20,32,Cross-Validation,"Precision, Recall",code_327.py
+"pandas, tensorflow, transformers",Text,Scaling,RNN,,,20,32,,"Precision, Recall",code_328.py
+"pandas, scikit-learn",Audio,Scaling,CNN,SGD,mean_squared_error,8,16,Cross-Validation,"Accuracy, Precision",code_329.py
+"tensorflow, keras",Image,Tokenization,RNN,SGD,categorical_crossentropy,12,32,Cross-Validation,"Precision, Recall",code_330.py
+"pandas, scikit-learn",Audio,Image Augmentation,Transformer,Adam,mean_squared_error,8,32,Validation Split,"Precision, Recall",code_331.py
+"tensorflow, keras",Tabular,Scaling,CNN,Adam,mean_squared_error,12,32,Validation Split,Accuracy,code_332.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,,,20,32,,"Precision, Recall",code_333.py
+"tensorflow, keras",Audio,Tokenization,Random Forest,SGD,categorical_crossentropy,20,64,Cross-Validation,"Accuracy, Recall",code_334.py
+"pandas, scikit-learn",Text,Scaling,CNN,RMSprop,categorical_crossentropy,20,16,Validation Split,Accuracy,code_335.py
+"pandas, scikit-learn",Image,Tokenization,CNN,SGD,categorical_crossentropy,8,16,Validation Split,Accuracy,code_336.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,CNN,Adam,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_337.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,CNN,SGD,categorical_crossentropy,10,64,Validation Split,"Accuracy, Precision",code_338.py
+"pandas, tensorflow, transformers",Tabular,Scaling,CNN,RMSprop,categorical_crossentropy,15,64,Validation Split,"Precision, Recall",code_339.py
+"pandas, scikit-learn",Image,Image Augmentation,Random Forest,,,18,64,,"Precision, Recall",code_340.py
+"pandas, scikit-learn",Tabular,Scaling,Random Forest,Adam,categorical_crossentropy,8,64,Validation Split,"Accuracy, Precision",code_341.py
+"tensorflow, keras",Text,Tokenization,Random Forest,SGD,mean_squared_error,15,16,Validation Split,"Precision, Recall",code_342.py
+"pandas, scikit-learn",Image,Scaling,Random Forest,,,18,64,,"Accuracy, Recall",code_343.py
+"tensorflow, scikit-learn",Image,Scaling,Random Forest,Adam,mean_squared_error,20,32,Cross-Validation,"Precision, Recall",code_344.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Random Forest,Adam,mean_squared_error,20,32,Validation Split,"Accuracy, Recall",code_345.py
+"tensorflow, scikit-learn",Text,Tokenization,RNN,SGD,categorical_crossentropy,10,16,Validation Split,Accuracy,code_346.py
+"tensorflow, scikit-learn",Image,Scaling,RNN,RMSprop,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Precision",code_347.py
+"tensorflow, keras",Audio,Tokenization,CNN,Adam,categorical_crossentropy,20,32,Validation Split,"Accuracy, Precision",code_348.py
+"pandas, scikit-learn",Image,Image Augmentation,Transformer,,,18,32,,"Accuracy, Precision",code_349.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,,,8,64,,Accuracy,code_350.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,SGD,categorical_crossentropy,20,16,Validation Split,"Accuracy, Recall",code_351.py
+"tensorflow, keras",Audio,Scaling,Random Forest,Adam,categorical_crossentropy,8,16,Validation Split,Accuracy,code_352.py
+"pandas, tensorflow, transformers",Tabular,Scaling,Transformer,RMSprop,categorical_crossentropy,10,16,Cross-Validation,"Precision, Recall",code_353.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Random Forest,,,15,16,,"Accuracy, Recall",code_354.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,,,20,32,,"Accuracy, Recall",code_355.py
+"pandas, tensorflow, transformers",Image,Scaling,RNN,Adam,mean_squared_error,15,32,Cross-Validation,"Accuracy, Precision",code_356.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,RMSprop,categorical_crossentropy,18,16,Cross-Validation,"Accuracy, Recall",code_357.py
+"pandas, scikit-learn",Tabular,Image Augmentation,Random Forest,SGD,mean_squared_error,20,32,Validation Split,"Precision, Recall",code_358.py
+"tensorflow, numpy",Image,Scaling,CNN,,,15,64,,"Accuracy, Precision",code_359.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,Adam,categorical_crossentropy,10,64,Cross-Validation,"Accuracy, Recall",code_360.py
+"pandas, scikit-learn",Image,Tokenization,Random Forest,RMSprop,mean_squared_error,15,64,Cross-Validation,Accuracy,code_361.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,RNN,SGD,categorical_crossentropy,12,32,Cross-Validation,"Precision, Recall",code_362.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Recall",code_363.py
+"tensorflow, numpy",Tabular,Image Augmentation,Random Forest,Adam,categorical_crossentropy,12,64,Validation Split,"Precision, Recall",code_364.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,,,20,32,,Accuracy,code_365.py
+"tensorflow, numpy",Text,Tokenization,Transformer,RMSprop,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_366.py
+"tensorflow, keras, sklearn",Image,Tokenization,RNN,Adam,mean_squared_error,20,16,Cross-Validation,"Accuracy, Precision",code_367.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,Random Forest,SGD,categorical_crossentropy,10,32,Validation Split,"Accuracy, Precision",code_368.py
+"tensorflow, keras",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,18,16,Validation Split,"Accuracy, Precision",code_369.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Random Forest,,,25,32,,"Accuracy, Recall",code_370.py
+"pandas, tensorflow, transformers",Text,Scaling,Random Forest,Adam,categorical_crossentropy,15,32,Validation Split,"Precision, Recall",code_371.py
+"tensorflow, scikit-learn",Tabular,Tokenization,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,"Precision, Recall",code_372.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,Random Forest,,,20,16,,"Accuracy, Recall",code_373.py
+"tensorflow, numpy",Audio,Scaling,Transformer,SGD,mean_squared_error,18,16,Validation Split,"Accuracy, Precision",code_374.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,SGD,mean_squared_error,15,32,Validation Split,Accuracy,code_375.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,CNN,Adam,categorical_crossentropy,25,32,Validation Split,"Accuracy, Precision",code_376.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,CNN,RMSprop,categorical_crossentropy,25,32,Validation Split,Accuracy,code_377.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,SGD,mean_squared_error,25,32,Cross-Validation,Accuracy,code_378.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,Transformer,RMSprop,mean_squared_error,25,64,Cross-Validation,"Accuracy, Precision",code_379.py
+"tensorflow, keras",Audio,Tokenization,CNN,,,20,32,,"Precision, Recall",code_380.py
+"pandas, scikit-learn",Text,Tokenization,Transformer,RMSprop,categorical_crossentropy,10,64,Cross-Validation,"Accuracy, Precision",code_381.py
+"pandas, scikit-learn",Audio,Scaling,Transformer,RMSprop,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_382.py
+"tensorflow, numpy",Audio,Tokenization,CNN,RMSprop,categorical_crossentropy,12,16,Validation Split,"Accuracy, Recall",code_383.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Transformer,Adam,categorical_crossentropy,25,16,Validation Split,Accuracy,code_384.py
+"tensorflow, keras",Tabular,Tokenization,Transformer,Adam,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_385.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,SGD,mean_squared_error,18,64,Cross-Validation,"Accuracy, Recall",code_386.py
+"tensorflow, scikit-learn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,8,32,Validation Split,"Accuracy, Recall",code_387.py
+"tensorflow, scikit-learn",Image,Tokenization,Random Forest,RMSprop,mean_squared_error,12,32,Cross-Validation,Accuracy,code_388.py
+"tensorflow, keras, sklearn",Audio,Tokenization,RNN,,,10,16,,"Accuracy, Precision",code_389.py
+"tensorflow, keras",Text,Tokenization,RNN,Adam,categorical_crossentropy,8,16,Validation Split,Accuracy,code_390.py
+"tensorflow, keras",Audio,Tokenization,Transformer,SGD,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Recall",code_391.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,CNN,,,20,32,,"Accuracy, Precision",code_392.py
+"pandas, tensorflow, transformers",Audio,Tokenization,CNN,,,25,16,,"Accuracy, Recall",code_393.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,RNN,Adam,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_394.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Random Forest,,,18,32,,"Accuracy, Precision",code_395.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,64,Validation Split,Accuracy,code_396.py
+"pandas, scikit-learn",Text,Tokenization,RNN,SGD,mean_squared_error,10,16,Cross-Validation,"Precision, Recall",code_397.py
+"tensorflow, keras",Image,Image Augmentation,Random Forest,SGD,categorical_crossentropy,18,16,Validation Split,Accuracy,code_398.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,,,15,16,,"Accuracy, Recall",code_399.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,Adam,mean_squared_error,10,16,Validation Split,"Accuracy, Precision",code_400.py
+"tensorflow, numpy",Tabular,Scaling,RNN,SGD,mean_squared_error,12,32,Cross-Validation,"Accuracy, Precision",code_401.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,RNN,SGD,mean_squared_error,20,32,Validation Split,"Precision, Recall",code_402.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,Adam,categorical_crossentropy,15,32,Validation Split,"Accuracy, Recall",code_403.py
+"tensorflow, keras",Audio,Image Augmentation,Transformer,Adam,mean_squared_error,12,16,Cross-Validation,"Accuracy, Precision",code_404.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,RNN,RMSprop,mean_squared_error,8,32,Cross-Validation,Accuracy,code_405.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,Adam,categorical_crossentropy,20,16,Cross-Validation,"Accuracy, Precision",code_406.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,8,64,Validation Split,"Accuracy, Precision",code_407.py
+"tensorflow, keras, sklearn",Audio,Tokenization,RNN,SGD,categorical_crossentropy,8,32,Cross-Validation,Accuracy,code_408.py
+"tensorflow, scikit-learn",Audio,Scaling,RNN,,,20,16,,Accuracy,code_409.py
+"tensorflow, scikit-learn",Image,Image Augmentation,Transformer,RMSprop,mean_squared_error,18,16,Cross-Validation,"Accuracy, Precision",code_410.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Transformer,,,15,32,,"Accuracy, Recall",code_411.py
+"tensorflow, keras",Text,Scaling,Random Forest,SGD,mean_squared_error,18,32,Validation Split,"Precision, Recall",code_412.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,RMSprop,categorical_crossentropy,10,16,Validation Split,"Accuracy, Precision",code_413.py
+"tensorflow, scikit-learn",Image,Image Augmentation,CNN,Adam,categorical_crossentropy,15,16,Cross-Validation,"Precision, Recall",code_414.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,Adam,categorical_crossentropy,8,32,Cross-Validation,Accuracy,code_415.py
+"tensorflow, keras, sklearn",Audio,Scaling,Random Forest,,,12,32,,Accuracy,code_416.py
+"tensorflow, scikit-learn",Audio,Scaling,RNN,,,20,32,,"Accuracy, Precision",code_417.py
+"tensorflow, keras",Text,Scaling,Transformer,,,25,16,,"Precision, Recall",code_418.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,RNN,,,18,32,,"Precision, Recall",code_419.py
+"tensorflow, keras",Image,Tokenization,Transformer,SGD,mean_squared_error,20,32,Cross-Validation,"Accuracy, Recall",code_420.py
+"tensorflow, keras, sklearn",Audio,Tokenization,CNN,Adam,mean_squared_error,18,32,Validation Split,"Precision, Recall",code_421.py
+"pandas, tensorflow, transformers",Text,Scaling,CNN,SGD,categorical_crossentropy,18,16,Validation Split,"Precision, Recall",code_422.py
+"pandas, scikit-learn",Text,Scaling,Transformer,SGD,mean_squared_error,15,16,Cross-Validation,Accuracy,code_423.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,Transformer,SGD,categorical_crossentropy,10,32,Validation Split,"Accuracy, Recall",code_424.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,,,15,64,,"Accuracy, Recall",code_425.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,,,8,64,,"Accuracy, Precision",code_426.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,SGD,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Precision",code_427.py
+"tensorflow, keras",Image,Tokenization,Transformer,Adam,categorical_crossentropy,12,32,Validation Split,"Precision, Recall",code_428.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Transformer,Adam,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_429.py
+"tensorflow, scikit-learn",Image,Tokenization,RNN,SGD,categorical_crossentropy,10,16,Validation Split,"Accuracy, Precision",code_430.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,,,12,16,,"Precision, Recall",code_431.py
+"pandas, tensorflow, transformers",Image,Tokenization,Transformer,,,25,16,,Accuracy,code_432.py
+"pandas, scikit-learn",Audio,Tokenization,RNN,RMSprop,mean_squared_error,25,32,Cross-Validation,Accuracy,code_433.py
+"tensorflow, keras",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,8,32,Cross-Validation,"Precision, Recall",code_434.py
+"pandas, scikit-learn",Tabular,Tokenization,CNN,RMSprop,categorical_crossentropy,18,64,Validation Split,Accuracy,code_435.py
+"pandas, scikit-learn",Image,Tokenization,Random Forest,Adam,categorical_crossentropy,8,32,Cross-Validation,Accuracy,code_436.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,RNN,,,12,64,,"Precision, Recall",code_437.py
+"pandas, scikit-learn",Audio,Tokenization,Transformer,SGD,categorical_crossentropy,12,32,Validation Split,Accuracy,code_438.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,18,32,Cross-Validation,"Accuracy, Recall",code_439.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,CNN,RMSprop,mean_squared_error,25,64,Cross-Validation,"Accuracy, Recall",code_440.py
+"pandas, scikit-learn",Image,Tokenization,Transformer,,,20,16,,"Accuracy, Recall",code_441.py
+"tensorflow, numpy",Tabular,Image Augmentation,Transformer,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Recall",code_442.py
+"tensorflow, keras",Image,Tokenization,Transformer,SGD,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_443.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Random Forest,,,25,16,,Accuracy,code_444.py
+"pandas, scikit-learn",Tabular,Tokenization,Transformer,RMSprop,mean_squared_error,12,32,Cross-Validation,"Precision, Recall",code_445.py
+"pandas, scikit-learn",Tabular,Tokenization,CNN,,,18,64,,"Accuracy, Precision",code_446.py
+"tensorflow, keras",Audio,Scaling,RNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Precision",code_447.py
+"tensorflow, keras",Text,Tokenization,CNN,SGD,categorical_crossentropy,18,16,Validation Split,"Accuracy, Precision",code_448.py
+"tensorflow, keras",Audio,Scaling,CNN,,,12,16,,"Accuracy, Recall",code_449.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Random Forest,,,12,16,,"Precision, Recall",code_450.py
+"tensorflow, numpy",Image,Image Augmentation,Random Forest,SGD,categorical_crossentropy,8,64,Cross-Validation,Accuracy,code_451.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,20,64,Validation Split,Accuracy,code_452.py
+"tensorflow, numpy",Audio,Image Augmentation,Random Forest,Adam,categorical_crossentropy,25,16,Validation Split,"Precision, Recall",code_453.py
+"tensorflow, numpy",Tabular,Scaling,RNN,RMSprop,mean_squared_error,12,16,Validation Split,"Accuracy, Precision",code_454.py
+"pandas, scikit-learn",Audio,Image Augmentation,CNN,SGD,categorical_crossentropy,20,64,Validation Split,"Accuracy, Precision",code_455.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,RNN,SGD,mean_squared_error,8,16,Validation Split,"Precision, Recall",code_456.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,,,8,32,,"Accuracy, Precision",code_457.py
+"tensorflow, keras",Audio,Image Augmentation,RNN,RMSprop,mean_squared_error,8,32,Cross-Validation,"Accuracy, Precision",code_458.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,8,32,Validation Split,Accuracy,code_459.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,Random Forest,,,25,32,,"Precision, Recall",code_460.py
+"tensorflow, scikit-learn",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,8,32,Validation Split,"Precision, Recall",code_461.py
+"pandas, scikit-learn",Image,Tokenization,RNN,Adam,categorical_crossentropy,25,16,Validation Split,"Accuracy, Precision",code_462.py
+"pandas, tensorflow, transformers",Text,Scaling,CNN,RMSprop,mean_squared_error,25,16,Validation Split,"Accuracy, Precision",code_463.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,CNN,,,20,32,,"Accuracy, Recall",code_464.py
+"tensorflow, scikit-learn",Text,Tokenization,RNN,Adam,mean_squared_error,10,64,Validation Split,Accuracy,code_465.py
+"tensorflow, keras",Audio,Image Augmentation,Random Forest,Adam,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_466.py
+"tensorflow, keras",Image,Image Augmentation,CNN,RMSprop,categorical_crossentropy,25,64,Cross-Validation,Accuracy,code_467.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,10,32,Validation Split,"Accuracy, Recall",code_468.py
+"tensorflow, numpy",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,20,64,Validation Split,"Accuracy, Precision",code_469.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_470.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_471.py
+"tensorflow, keras, sklearn",Image,Tokenization,RNN,,,20,64,,"Accuracy, Recall",code_472.py
+"tensorflow, keras",Audio,Image Augmentation,Transformer,SGD,mean_squared_error,25,16,Validation Split,Accuracy,code_473.py
+"pandas, scikit-learn",Audio,Image Augmentation,Random Forest,,,15,32,,"Accuracy, Precision",code_474.py
+"pandas, scikit-learn",Image,Scaling,Transformer,,,18,16,,"Accuracy, Recall",code_475.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,,,18,64,,"Precision, Recall",code_476.py
+"pandas, tensorflow, transformers",Audio,Scaling,Transformer,SGD,mean_squared_error,8,16,Cross-Validation,"Precision, Recall",code_477.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,Adam,mean_squared_error,15,32,Validation Split,Accuracy,code_478.py
+"tensorflow, scikit-learn",Audio,Tokenization,Transformer,SGD,mean_squared_error,10,64,Validation Split,Accuracy,code_479.py
+"tensorflow, keras",Audio,Image Augmentation,Transformer,Adam,categorical_crossentropy,15,16,Validation Split,"Accuracy, Recall",code_480.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,SGD,categorical_crossentropy,10,64,Validation Split,"Precision, Recall",code_481.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,SGD,mean_squared_error,10,32,Cross-Validation,"Accuracy, Recall",code_482.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,Transformer,RMSprop,mean_squared_error,20,16,Cross-Validation,"Accuracy, Recall",code_483.py
+"tensorflow, keras",Tabular,Tokenization,CNN,,,12,64,,"Accuracy, Precision",code_484.py
+"tensorflow, keras",Audio,Image Augmentation,Random Forest,,,12,32,,"Accuracy, Precision",code_485.py
+"pandas, tensorflow, transformers",Audio,Scaling,Random Forest,RMSprop,categorical_crossentropy,15,16,Cross-Validation,"Accuracy, Recall",code_486.py
+"tensorflow, keras",Text,Tokenization,RNN,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Recall",code_487.py
+"pandas, scikit-learn",Image,Image Augmentation,Random Forest,SGD,mean_squared_error,8,32,Cross-Validation,"Accuracy, Precision",code_488.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,RMSprop,mean_squared_error,10,32,Validation Split,"Accuracy, Precision",code_489.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Transformer,SGD,mean_squared_error,20,16,Validation Split,Accuracy,code_490.py
+"tensorflow, keras",Audio,Image Augmentation,RNN,SGD,mean_squared_error,15,16,Cross-Validation,"Accuracy, Precision",code_491.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_492.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,CNN,SGD,mean_squared_error,10,16,Validation Split,Accuracy,code_493.py
+"tensorflow, numpy",Audio,Scaling,Transformer,,,20,32,,Accuracy,code_494.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,RMSprop,mean_squared_error,25,64,Validation Split,"Precision, Recall",code_495.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,CNN,SGD,mean_squared_error,18,32,Cross-Validation,Accuracy,code_496.py
+"pandas, scikit-learn",Text,Scaling,CNN,,,18,16,,"Precision, Recall",code_497.py
+"tensorflow, numpy",Audio,Image Augmentation,Random Forest,,,18,16,,"Accuracy, Recall",code_498.py
+"tensorflow, numpy",Tabular,Scaling,CNN,RMSprop,categorical_crossentropy,12,16,Validation Split,"Precision, Recall",code_499.py
+"pandas, scikit-learn",Text,Image Augmentation,CNN,RMSprop,mean_squared_error,15,32,Validation Split,"Accuracy, Recall",code_500.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,,,18,16,,Accuracy,code_001.py
+"tensorflow, scikit-learn",Tabular,Scaling,Random Forest,,,25,16,,"Accuracy, Recall",code_002.py
+"pandas, scikit-learn",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,20,16,Cross-Validation,Accuracy,code_003.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,32,Cross-Validation,"Precision, Recall",code_004.py
+"tensorflow, scikit-learn",Image,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,15,16,Validation Split,Accuracy,code_005.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,Adam,categorical_crossentropy,10,64,Validation Split,"Accuracy, Recall",code_006.py
+"tensorflow, scikit-learn",Tabular,Tokenization,RNN,,,15,64,,"Accuracy, Recall",code_007.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,Adam,mean_squared_error,20,32,Validation Split,"Accuracy, Recall",code_008.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,RMSprop,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_009.py
+"tensorflow, keras",Tabular,Scaling,Transformer,RMSprop,mean_squared_error,12,64,Cross-Validation,Accuracy,code_010.py
+"pandas, tensorflow, transformers",Tabular,Scaling,RNN,RMSprop,mean_squared_error,18,32,Cross-Validation,"Accuracy, Precision",code_011.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,18,16,Cross-Validation,"Precision, Recall",code_012.py
+"pandas, tensorflow, transformers",Tabular,Scaling,RNN,SGD,mean_squared_error,20,16,Cross-Validation,"Precision, Recall",code_013.py
+"tensorflow, scikit-learn",Image,Scaling,CNN,Adam,mean_squared_error,25,64,Cross-Validation,"Accuracy, Recall",code_014.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,SGD,mean_squared_error,25,32,Cross-Validation,"Precision, Recall",code_015.py
+"tensorflow, keras",Image,Tokenization,CNN,,,25,32,,"Precision, Recall",code_016.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,Adam,mean_squared_error,25,64,Validation Split,"Precision, Recall",code_017.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,RMSprop,mean_squared_error,20,32,Validation Split,"Accuracy, Precision",code_018.py
+"tensorflow, keras",Text,Image Augmentation,CNN,,,12,64,,"Accuracy, Recall",code_019.py
+"tensorflow, numpy",Audio,Image Augmentation,Transformer,SGD,mean_squared_error,18,64,Validation Split,Accuracy,code_020.py
+"tensorflow, keras, sklearn",Text,Tokenization,Transformer,RMSprop,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_021.py
+"tensorflow, numpy",Image,Tokenization,CNN,SGD,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_022.py
+"pandas, tensorflow, transformers",Audio,Scaling,Transformer,,,8,64,,"Precision, Recall",code_023.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,RNN,RMSprop,mean_squared_error,20,16,Cross-Validation,"Precision, Recall",code_024.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Transformer,RMSprop,mean_squared_error,12,32,Cross-Validation,"Accuracy, Precision",code_025.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,RNN,RMSprop,mean_squared_error,12,16,Validation Split,Accuracy,code_026.py
+"tensorflow, keras",Image,Image Augmentation,RNN,Adam,categorical_crossentropy,10,32,Cross-Validation,Accuracy,code_027.py
+"tensorflow, keras",Tabular,Scaling,Transformer,Adam,mean_squared_error,18,32,Cross-Validation,"Precision, Recall",code_028.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,,,25,64,,"Precision, Recall",code_029.py
+"tensorflow, keras",Text,Tokenization,CNN,SGD,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Precision",code_030.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,CNN,,,15,64,,"Accuracy, Recall",code_031.py
+"tensorflow, scikit-learn",Image,Image Augmentation,RNN,RMSprop,categorical_crossentropy,15,16,Cross-Validation,Accuracy,code_032.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,RNN,Adam,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_033.py
+"tensorflow, keras",Image,Scaling,Random Forest,RMSprop,categorical_crossentropy,20,64,Validation Split,"Accuracy, Recall",code_034.py
+"pandas, tensorflow, transformers",Tabular,Scaling,Random Forest,RMSprop,mean_squared_error,25,64,Validation Split,"Accuracy, Recall",code_035.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,,,20,64,,Accuracy,code_036.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,CNN,SGD,categorical_crossentropy,12,16,Validation Split,"Precision, Recall",code_037.py
+"pandas, scikit-learn",Audio,Image Augmentation,CNN,Adam,mean_squared_error,15,16,Validation Split,"Accuracy, Recall",code_038.py
+"tensorflow, numpy",Text,Image Augmentation,Transformer,RMSprop,mean_squared_error,8,32,Cross-Validation,Accuracy,code_039.py
+"pandas, tensorflow, transformers",Text,Tokenization,RNN,RMSprop,mean_squared_error,10,32,Cross-Validation,"Precision, Recall",code_040.py
+"pandas, tensorflow, transformers",Text,Scaling,Transformer,SGD,categorical_crossentropy,10,32,Validation Split,Accuracy,code_041.py
+"tensorflow, numpy",Tabular,Image Augmentation,RNN,RMSprop,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_042.py
+"pandas, scikit-learn",Text,Tokenization,RNN,SGD,categorical_crossentropy,25,32,Validation Split,"Accuracy, Recall",code_043.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,RMSprop,categorical_crossentropy,20,32,Validation Split,Accuracy,code_044.py
+"tensorflow, scikit-learn",Tabular,Image Augmentation,Transformer,SGD,mean_squared_error,10,64,Validation Split,"Accuracy, Recall",code_045.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,RNN,RMSprop,mean_squared_error,15,32,Cross-Validation,Accuracy,code_046.py
+"pandas, tensorflow, transformers",Text,Scaling,RNN,,,8,32,,"Accuracy, Recall",code_047.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Random Forest,RMSprop,categorical_crossentropy,15,64,Validation Split,Accuracy,code_048.py
+"pandas, scikit-learn",Tabular,Scaling,Transformer,Adam,mean_squared_error,8,16,Cross-Validation,"Accuracy, Precision",code_049.py
+"pandas, tensorflow, transformers",Text,Tokenization,CNN,SGD,mean_squared_error,8,64,Cross-Validation,"Accuracy, Precision",code_050.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,RMSprop,mean_squared_error,25,64,Validation Split,"Precision, Recall",code_051.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,CNN,SGD,mean_squared_error,20,64,Cross-Validation,"Precision, Recall",code_052.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,Adam,mean_squared_error,15,32,Validation Split,Accuracy,code_053.py
+"tensorflow, keras, sklearn",Text,Image Augmentation,Random Forest,SGD,mean_squared_error,18,16,Cross-Validation,Accuracy,code_054.py
+"tensorflow, scikit-learn",Text,Tokenization,Transformer,,,20,64,,Accuracy,code_055.py
+"tensorflow, numpy",Image,Scaling,Transformer,,,12,32,,"Accuracy, Precision",code_056.py
+"tensorflow, keras, sklearn",Image,Tokenization,Random Forest,RMSprop,mean_squared_error,20,16,Cross-Validation,Accuracy,code_057.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,,,8,16,,"Accuracy, Recall",code_058.py
+"tensorflow, numpy",Tabular,Tokenization,CNN,RMSprop,mean_squared_error,18,32,Validation Split,Accuracy,code_059.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_060.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,Random Forest,RMSprop,mean_squared_error,15,16,Cross-Validation,"Accuracy, Precision",code_061.py
+"tensorflow, scikit-learn",Tabular,Tokenization,CNN,Adam,categorical_crossentropy,8,16,Cross-Validation,Accuracy,code_062.py
+"tensorflow, numpy",Text,Image Augmentation,Random Forest,,,20,32,,"Accuracy, Recall",code_063.py
+"tensorflow, scikit-learn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,15,32,Validation Split,"Accuracy, Precision",code_064.py
+"pandas, scikit-learn",Text,Image Augmentation,Random Forest,,,25,64,,Accuracy,code_065.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,,,25,64,,"Accuracy, Recall",code_066.py
+"tensorflow, numpy",Audio,Image Augmentation,Random Forest,RMSprop,categorical_crossentropy,8,32,Cross-Validation,"Precision, Recall",code_067.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,,,15,32,,"Accuracy, Recall",code_068.py
+"tensorflow, keras, sklearn",Image,Image Augmentation,CNN,SGD,mean_squared_error,8,64,Validation Split,Accuracy,code_069.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,,,10,64,,"Accuracy, Precision",code_070.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,SGD,categorical_crossentropy,15,16,Validation Split,"Accuracy, Precision",code_071.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,Adam,categorical_crossentropy,18,32,Cross-Validation,Accuracy,code_072.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,Random Forest,SGD,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Precision",code_073.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,,,8,64,,"Accuracy, Precision",code_074.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,SGD,mean_squared_error,18,64,Validation Split,"Accuracy, Recall",code_075.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Random Forest,SGD,mean_squared_error,25,64,Validation Split,Accuracy,code_076.py
+"pandas, scikit-learn",Tabular,Tokenization,RNN,SGD,categorical_crossentropy,10,16,Cross-Validation,"Accuracy, Recall",code_077.py
+"tensorflow, numpy",Image,Scaling,Transformer,,,20,16,,"Accuracy, Precision",code_078.py
+"tensorflow, numpy",Text,Image Augmentation,CNN,Adam,categorical_crossentropy,20,16,Cross-Validation,"Precision, Recall",code_079.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,RMSprop,categorical_crossentropy,25,64,Validation Split,"Precision, Recall",code_080.py
+"pandas, scikit-learn",Text,Tokenization,RNN,,,12,64,,"Accuracy, Recall",code_081.py
+"tensorflow, scikit-learn",Text,Scaling,RNN,Adam,mean_squared_error,10,16,Validation Split,Accuracy,code_082.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,,,18,16,,"Accuracy, Precision",code_083.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,,,8,16,,"Precision, Recall",code_084.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,CNN,RMSprop,mean_squared_error,12,16,Validation Split,"Accuracy, Recall",code_085.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Random Forest,,,8,64,,"Accuracy, Recall",code_086.py
+"tensorflow, scikit-learn",Text,Scaling,Transformer,RMSprop,categorical_crossentropy,12,32,Validation Split,"Accuracy, Precision",code_087.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,SGD,categorical_crossentropy,18,32,Cross-Validation,"Accuracy, Recall",code_088.py
+"tensorflow, keras, sklearn",Image,Tokenization,CNN,SGD,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_089.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,,,10,32,,"Precision, Recall",code_090.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Precision",code_091.py
+"tensorflow, keras",Text,Scaling,CNN,RMSprop,categorical_crossentropy,25,32,Validation Split,"Accuracy, Recall",code_092.py
+"tensorflow, keras, sklearn",Text,Image Augmentation,RNN,Adam,mean_squared_error,20,64,Cross-Validation,"Accuracy, Recall",code_093.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Random Forest,Adam,categorical_crossentropy,20,32,Cross-Validation,"Accuracy, Recall",code_094.py
+"tensorflow, keras",Text,Scaling,RNN,Adam,mean_squared_error,12,16,Cross-Validation,Accuracy,code_095.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,15,64,Validation Split,"Accuracy, Precision",code_096.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,RNN,SGD,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Precision",code_097.py
+"tensorflow, keras",Text,Tokenization,CNN,RMSprop,mean_squared_error,18,16,Validation Split,"Accuracy, Recall",code_098.py
+"tensorflow, keras",Audio,Scaling,Random Forest,SGD,categorical_crossentropy,15,16,Cross-Validation,"Precision, Recall",code_099.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,CNN,Adam,categorical_crossentropy,18,16,Validation Split,"Accuracy, Recall",code_100.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,SGD,categorical_crossentropy,25,32,Cross-Validation,Accuracy,code_101.py
+"tensorflow, keras, sklearn",Audio,Tokenization,Transformer,Adam,categorical_crossentropy,8,64,Cross-Validation,Accuracy,code_102.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,25,16,Cross-Validation,"Precision, Recall",code_103.py
+"tensorflow, numpy",Image,Image Augmentation,Random Forest,Adam,mean_squared_error,25,16,Validation Split,"Accuracy, Precision",code_104.py
+"tensorflow, numpy",Tabular,Image Augmentation,CNN,,,18,16,,"Precision, Recall",code_105.py
+"tensorflow, numpy",Tabular,Image Augmentation,RNN,,,10,16,,Accuracy,code_106.py
+"tensorflow, numpy",Audio,Tokenization,Random Forest,,,25,32,,Accuracy,code_107.py
+"tensorflow, keras",Image,Image Augmentation,CNN,Adam,mean_squared_error,15,16,Cross-Validation,Accuracy,code_108.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Random Forest,,,15,16,,"Accuracy, Precision",code_109.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Transformer,SGD,categorical_crossentropy,10,16,Validation Split,"Precision, Recall",code_110.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,RNN,RMSprop,categorical_crossentropy,10,64,Validation Split,Accuracy,code_111.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,25,64,Cross-Validation,"Accuracy, Precision",code_112.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,RMSprop,categorical_crossentropy,15,32,Cross-Validation,Accuracy,code_113.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Precision",code_114.py
+"tensorflow, keras, sklearn",Text,Image Augmentation,Transformer,SGD,mean_squared_error,18,64,Cross-Validation,"Accuracy, Recall",code_115.py
+"tensorflow, keras",Image,Tokenization,CNN,Adam,mean_squared_error,25,64,Validation Split,Accuracy,code_116.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,CNN,,,10,64,,"Precision, Recall",code_117.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,Transformer,Adam,mean_squared_error,25,32,Validation Split,"Accuracy, Recall",code_118.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,,,18,16,,"Accuracy, Precision",code_119.py
+"tensorflow, scikit-learn",Audio,Tokenization,CNN,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Precision",code_120.py
+"pandas, scikit-learn",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,"Accuracy, Recall",code_121.py
+"tensorflow, numpy",Audio,Scaling,Transformer,Adam,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_122.py
+"pandas, scikit-learn",Audio,Tokenization,CNN,,,10,16,,"Precision, Recall",code_123.py
+"tensorflow, numpy",Tabular,Scaling,CNN,,,25,32,,"Accuracy, Precision",code_124.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,,,12,16,,"Precision, Recall",code_125.py
+"tensorflow, keras",Image,Image Augmentation,CNN,SGD,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Recall",code_126.py
+"tensorflow, keras",Audio,Image Augmentation,Random Forest,,,18,32,,"Accuracy, Precision",code_127.py
+"tensorflow, keras",Text,Tokenization,RNN,RMSprop,categorical_crossentropy,12,64,Cross-Validation,"Accuracy, Recall",code_128.py
+"tensorflow, keras",Audio,Scaling,Random Forest,Adam,mean_squared_error,12,32,Cross-Validation,"Accuracy, Precision",code_129.py
+"tensorflow, numpy",Text,Tokenization,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,Accuracy,code_130.py
+"pandas, scikit-learn",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Recall",code_131.py
+"tensorflow, keras, sklearn",Audio,Scaling,Random Forest,,,15,64,,"Precision, Recall",code_132.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,CNN,SGD,categorical_crossentropy,18,64,Cross-Validation,Accuracy,code_133.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,RNN,RMSprop,mean_squared_error,8,16,Validation Split,"Accuracy, Precision",code_134.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Transformer,Adam,mean_squared_error,25,32,Validation Split,Accuracy,code_135.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Transformer,,,18,32,,Accuracy,code_136.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,RNN,,,10,64,,"Accuracy, Precision",code_137.py
+"tensorflow, scikit-learn",Image,Image Augmentation,Transformer,Adam,mean_squared_error,20,64,Validation Split,"Precision, Recall",code_138.py
+"tensorflow, numpy",Tabular,Scaling,Transformer,,,20,32,,Accuracy,code_139.py
+"tensorflow, keras",Audio,Image Augmentation,CNN,Adam,categorical_crossentropy,12,64,Cross-Validation,"Precision, Recall",code_140.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,,,12,64,,"Accuracy, Recall",code_141.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,RNN,RMSprop,mean_squared_error,12,16,Cross-Validation,"Accuracy, Recall",code_142.py
+"tensorflow, keras",Text,Scaling,Transformer,,,15,16,,"Accuracy, Precision",code_143.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,RNN,SGD,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_144.py
+"tensorflow, numpy",Image,Tokenization,Transformer,,,8,64,,Accuracy,code_145.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,Transformer,,,8,32,,"Accuracy, Recall",code_146.py
+"tensorflow, scikit-learn",Tabular,Tokenization,RNN,SGD,categorical_crossentropy,12,64,Cross-Validation,"Accuracy, Recall",code_147.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,SGD,mean_squared_error,12,32,Cross-Validation,"Accuracy, Precision",code_148.py
+"tensorflow, keras",Audio,Tokenization,CNN,SGD,categorical_crossentropy,18,32,Validation Split,Accuracy,code_149.py
+"tensorflow, keras",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,20,16,Cross-Validation,"Precision, Recall",code_150.py
+"tensorflow, numpy",Image,Tokenization,Random Forest,,,20,32,,"Accuracy, Recall",code_151.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Random Forest,Adam,categorical_crossentropy,25,32,Validation Split,"Accuracy, Precision",code_152.py
+"pandas, scikit-learn",Tabular,Image Augmentation,CNN,,,8,64,,"Accuracy, Precision",code_153.py
+"tensorflow, numpy",Text,Image Augmentation,CNN,Adam,mean_squared_error,18,64,Cross-Validation,"Accuracy, Precision",code_154.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,SGD,mean_squared_error,8,32,Cross-Validation,Accuracy,code_155.py
+"tensorflow, keras, sklearn",Text,Tokenization,RNN,,,10,16,,"Accuracy, Precision",code_156.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,RNN,Adam,categorical_crossentropy,18,16,Validation Split,Accuracy,code_157.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,CNN,Adam,mean_squared_error,8,32,Validation Split,"Precision, Recall",code_158.py
+"tensorflow, keras",Text,Scaling,CNN,,,18,32,,"Precision, Recall",code_159.py
+"tensorflow, scikit-learn",Text,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,18,64,Cross-Validation,"Accuracy, Precision",code_160.py
+"tensorflow, keras, sklearn",Text,Tokenization,Random Forest,,,12,32,,"Accuracy, Recall",code_161.py
+"tensorflow, keras",Image,Scaling,CNN,RMSprop,mean_squared_error,15,32,Validation Split,"Accuracy, Recall",code_162.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,20,64,Cross-Validation,Accuracy,code_163.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,Transformer,,,10,64,,"Precision, Recall",code_164.py
+"pandas, scikit-learn",Audio,Tokenization,CNN,Adam,categorical_crossentropy,25,16,Validation Split,Accuracy,code_165.py
+"pandas, tensorflow, transformers",Tabular,Scaling,Transformer,SGD,categorical_crossentropy,18,16,Cross-Validation,"Accuracy, Precision",code_166.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,10,64,Cross-Validation,Accuracy,code_167.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,RMSprop,mean_squared_error,15,64,Validation Split,Accuracy,code_168.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Random Forest,,,15,64,,"Accuracy, Precision",code_169.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,20,16,Validation Split,"Precision, Recall",code_170.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,Adam,mean_squared_error,15,16,Cross-Validation,"Accuracy, Precision",code_171.py
+"tensorflow, keras",Tabular,Scaling,RNN,SGD,mean_squared_error,25,64,Validation Split,"Precision, Recall",code_172.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,Adam,mean_squared_error,18,32,Cross-Validation,"Accuracy, Precision",code_173.py
+"tensorflow, numpy",Text,Image Augmentation,Random Forest,Adam,mean_squared_error,25,16,Cross-Validation,Accuracy,code_174.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,SGD,mean_squared_error,12,16,Cross-Validation,Accuracy,code_175.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,Adam,categorical_crossentropy,15,16,Cross-Validation,Accuracy,code_176.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Transformer,,,8,16,,"Precision, Recall",code_177.py
+"pandas, scikit-learn",Text,Tokenization,RNN,Adam,categorical_crossentropy,12,16,Validation Split,Accuracy,code_178.py
+"tensorflow, numpy",Tabular,Tokenization,Transformer,,,10,16,,"Accuracy, Precision",code_179.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,10,64,Cross-Validation,"Precision, Recall",code_180.py
+"tensorflow, scikit-learn",Image,Scaling,CNN,RMSprop,categorical_crossentropy,10,64,Cross-Validation,Accuracy,code_181.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,RNN,,,10,32,,Accuracy,code_182.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,Random Forest,,,25,32,,Accuracy,code_183.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Random Forest,,,8,32,,Accuracy,code_184.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,CNN,,,8,64,,"Precision, Recall",code_185.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Transformer,Adam,mean_squared_error,12,64,Cross-Validation,"Precision, Recall",code_186.py
+"tensorflow, keras",Text,Tokenization,Random Forest,,,20,64,,"Precision, Recall",code_187.py
+"pandas, scikit-learn",Tabular,Scaling,RNN,RMSprop,categorical_crossentropy,20,32,Validation Split,"Accuracy, Precision",code_188.py
+"pandas, tensorflow, transformers",Image,Scaling,CNN,Adam,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Recall",code_189.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,,,12,32,,"Accuracy, Recall",code_190.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Random Forest,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_191.py
+"tensorflow, scikit-learn",Text,Tokenization,Transformer,,,10,64,,"Accuracy, Precision",code_192.py
+"pandas, scikit-learn",Image,Scaling,CNN,RMSprop,categorical_crossentropy,18,64,Cross-Validation,"Precision, Recall",code_193.py
+"pandas, scikit-learn",Image,Image Augmentation,Random Forest,Adam,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_194.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,RNN,,,15,64,,"Accuracy, Recall",code_195.py
+"tensorflow, keras",Image,Scaling,Random Forest,,,25,32,,"Accuracy, Precision",code_196.py
+"pandas, scikit-learn",Audio,Image Augmentation,Random Forest,,,10,16,,"Precision, Recall",code_197.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,Adam,categorical_crossentropy,18,64,Validation Split,"Accuracy, Recall",code_198.py
+"pandas, tensorflow, transformers",Text,Scaling,CNN,SGD,categorical_crossentropy,18,64,Validation Split,"Accuracy, Recall",code_199.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,RMSprop,mean_squared_error,18,16,Cross-Validation,Accuracy,code_200.py
+"tensorflow, numpy",Image,Scaling,Random Forest,SGD,mean_squared_error,8,16,Cross-Validation,"Accuracy, Recall",code_201.py
+"tensorflow, numpy",Audio,Tokenization,RNN,Adam,mean_squared_error,25,16,Validation Split,"Accuracy, Recall",code_202.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Random Forest,RMSprop,categorical_crossentropy,20,32,Cross-Validation,Accuracy,code_203.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,Adam,mean_squared_error,20,32,Cross-Validation,"Precision, Recall",code_204.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,RMSprop,mean_squared_error,25,64,Validation Split,"Accuracy, Precision",code_205.py
+"pandas, scikit-learn",Text,Scaling,RNN,Adam,mean_squared_error,12,32,Cross-Validation,"Precision, Recall",code_206.py
+"tensorflow, scikit-learn",Audio,Tokenization,Transformer,Adam,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_207.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,,,20,16,,"Accuracy, Precision",code_208.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,Random Forest,Adam,categorical_crossentropy,12,32,Validation Split,Accuracy,code_209.py
+"tensorflow, scikit-learn",Text,Scaling,RNN,RMSprop,categorical_crossentropy,25,64,Validation Split,"Precision, Recall",code_210.py
+"pandas, tensorflow, transformers",Image,Scaling,RNN,,,25,32,,Accuracy,code_211.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,20,16,Validation Split,Accuracy,code_212.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,Random Forest,,,18,32,,"Precision, Recall",code_213.py
+"tensorflow, keras",Text,Scaling,Transformer,,,18,32,,"Precision, Recall",code_214.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,Random Forest,,,8,64,,"Accuracy, Recall",code_215.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,,,15,16,,"Accuracy, Precision",code_216.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Transformer,RMSprop,categorical_crossentropy,25,16,Cross-Validation,Accuracy,code_217.py
+"pandas, scikit-learn",Image,Image Augmentation,Transformer,RMSprop,mean_squared_error,10,64,Validation Split,Accuracy,code_218.py
+"tensorflow, keras",Tabular,Tokenization,Transformer,Adam,mean_squared_error,8,64,Validation Split,"Precision, Recall",code_219.py
+"tensorflow, numpy",Text,Scaling,Random Forest,,,25,16,,Accuracy,code_220.py
+"tensorflow, numpy",Text,Image Augmentation,RNN,Adam,categorical_crossentropy,15,64,Validation Split,"Accuracy, Recall",code_221.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,Adam,categorical_crossentropy,10,32,Cross-Validation,"Precision, Recall",code_222.py
+"tensorflow, scikit-learn",Audio,Scaling,Transformer,,,15,64,,Accuracy,code_223.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,RMSprop,mean_squared_error,15,16,Validation Split,Accuracy,code_224.py
+"tensorflow, keras",Image,Image Augmentation,RNN,SGD,mean_squared_error,10,64,Cross-Validation,"Accuracy, Recall",code_225.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Transformer,SGD,mean_squared_error,10,32,Cross-Validation,"Precision, Recall",code_226.py
+"pandas, scikit-learn",Image,Image Augmentation,Transformer,,,20,32,,"Precision, Recall",code_227.py
+"pandas, tensorflow, transformers",Text,Scaling,Random Forest,RMSprop,categorical_crossentropy,20,32,Cross-Validation,"Accuracy, Recall",code_228.py
+"pandas, scikit-learn",Audio,Image Augmentation,RNN,,,10,64,,"Accuracy, Precision",code_229.py
+"tensorflow, numpy",Image,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_230.py
+"tensorflow, keras",Tabular,Scaling,CNN,Adam,categorical_crossentropy,25,16,Validation Split,"Accuracy, Recall",code_231.py
+"pandas, tensorflow, transformers",Audio,Scaling,CNN,Adam,mean_squared_error,25,32,Validation Split,"Accuracy, Precision",code_232.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,RNN,SGD,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_233.py
+"pandas, scikit-learn",Text,Image Augmentation,RNN,SGD,categorical_crossentropy,8,64,Validation Split,Accuracy,code_234.py
+"tensorflow, keras, sklearn",Audio,Tokenization,CNN,RMSprop,categorical_crossentropy,18,32,Cross-Validation,"Accuracy, Precision",code_235.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,Adam,mean_squared_error,20,64,Validation Split,"Accuracy, Precision",code_236.py
+"tensorflow, keras, sklearn",Audio,Scaling,RNN,,,18,32,,"Accuracy, Precision",code_237.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,RNN,Adam,mean_squared_error,18,32,Cross-Validation,"Accuracy, Precision",code_238.py
+"tensorflow, numpy",Text,Image Augmentation,RNN,RMSprop,mean_squared_error,25,16,Cross-Validation,"Accuracy, Recall",code_239.py
+"pandas, scikit-learn",Text,Scaling,Random Forest,,,10,32,,"Precision, Recall",code_240.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,CNN,SGD,mean_squared_error,8,16,Cross-Validation,Accuracy,code_241.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,RNN,,,12,64,,Accuracy,code_242.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,Random Forest,,,20,16,,"Accuracy, Precision",code_243.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,SGD,mean_squared_error,18,32,Cross-Validation,"Accuracy, Recall",code_244.py
+"tensorflow, keras",Tabular,Scaling,Transformer,RMSprop,mean_squared_error,8,32,Validation Split,"Accuracy, Precision",code_245.py
+"tensorflow, keras",Text,Tokenization,Random Forest,,,8,16,,"Accuracy, Recall",code_246.py
+"pandas, scikit-learn",Tabular,Image Augmentation,Random Forest,SGD,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Precision",code_247.py
+"tensorflow, scikit-learn",Audio,Tokenization,CNN,Adam,mean_squared_error,15,32,Validation Split,"Accuracy, Precision",code_248.py
+"pandas, tensorflow, transformers",Audio,Scaling,Random Forest,RMSprop,categorical_crossentropy,10,64,Validation Split,Accuracy,code_249.py
+"tensorflow, scikit-learn",Tabular,Scaling,Transformer,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Precision",code_250.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,RMSprop,mean_squared_error,20,64,Validation Split,"Precision, Recall",code_251.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,Adam,categorical_crossentropy,25,16,Cross-Validation,"Precision, Recall",code_252.py
+"tensorflow, keras, sklearn",Audio,Scaling,RNN,RMSprop,mean_squared_error,15,64,Cross-Validation,Accuracy,code_253.py
+"tensorflow, keras, sklearn",Tabular,Scaling,RNN,SGD,mean_squared_error,15,32,Validation Split,Accuracy,code_254.py
+"pandas, tensorflow, transformers",Text,Tokenization,CNN,SGD,categorical_crossentropy,10,64,Cross-Validation,Accuracy,code_255.py
+"tensorflow, keras",Audio,Tokenization,Transformer,SGD,mean_squared_error,12,16,Validation Split,"Accuracy, Recall",code_256.py
+"pandas, scikit-learn",Image,Scaling,CNN,Adam,mean_squared_error,8,32,Cross-Validation,"Precision, Recall",code_257.py
+"tensorflow, keras",Text,Tokenization,Transformer,Adam,categorical_crossentropy,18,64,Validation Split,"Accuracy, Recall",code_258.py
+"tensorflow, scikit-learn",Tabular,Scaling,Random Forest,Adam,mean_squared_error,12,64,Validation Split,"Precision, Recall",code_259.py
+"tensorflow, scikit-learn",Tabular,Image Augmentation,CNN,,,15,16,,"Accuracy, Recall",code_260.py
+"tensorflow, keras, sklearn",Audio,Scaling,CNN,SGD,mean_squared_error,25,32,Cross-Validation,"Accuracy, Recall",code_261.py
+"pandas, scikit-learn",Tabular,Image Augmentation,CNN,SGD,mean_squared_error,18,16,Cross-Validation,"Precision, Recall",code_262.py
+"tensorflow, scikit-learn",Text,Image Augmentation,Random Forest,RMSprop,mean_squared_error,12,64,Cross-Validation,"Accuracy, Recall",code_263.py
+"tensorflow, numpy",Audio,Image Augmentation,CNN,Adam,mean_squared_error,20,32,Cross-Validation,"Accuracy, Precision",code_264.py
+"tensorflow, numpy",Audio,Tokenization,CNN,Adam,categorical_crossentropy,8,32,Validation Split,"Accuracy, Precision",code_265.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,CNN,RMSprop,mean_squared_error,10,64,Cross-Validation,"Precision, Recall",code_266.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,Adam,mean_squared_error,15,32,Validation Split,Accuracy,code_267.py
+"tensorflow, keras",Text,Scaling,RNN,,,12,16,,"Accuracy, Recall",code_268.py
+"pandas, scikit-learn",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,12,32,Validation Split,"Accuracy, Recall",code_269.py
+"tensorflow, numpy",Text,Tokenization,Random Forest,RMSprop,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_270.py
+"tensorflow, numpy",Image,Image Augmentation,Transformer,Adam,categorical_crossentropy,15,32,Validation Split,"Accuracy, Precision",code_271.py
+"tensorflow, scikit-learn",Audio,Tokenization,RNN,SGD,mean_squared_error,8,32,Cross-Validation,"Accuracy, Recall",code_272.py
+"pandas, scikit-learn",Tabular,Tokenization,Transformer,SGD,categorical_crossentropy,25,64,Validation Split,Accuracy,code_273.py
+"tensorflow, numpy",Image,Tokenization,RNN,RMSprop,mean_squared_error,25,32,Validation Split,Accuracy,code_274.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Transformer,SGD,mean_squared_error,20,64,Validation Split,"Accuracy, Recall",code_275.py
+"pandas, scikit-learn",Tabular,Tokenization,CNN,Adam,categorical_crossentropy,18,16,Cross-Validation,Accuracy,code_276.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,CNN,RMSprop,categorical_crossentropy,25,32,Validation Split,"Precision, Recall",code_277.py
+"tensorflow, keras",Tabular,Image Augmentation,CNN,,,10,64,,"Accuracy, Recall",code_278.py
+"tensorflow, numpy",Text,Tokenization,Random Forest,SGD,mean_squared_error,18,16,Cross-Validation,"Accuracy, Recall",code_279.py
+"tensorflow, scikit-learn",Tabular,Scaling,CNN,SGD,mean_squared_error,10,32,Cross-Validation,"Accuracy, Recall",code_280.py
+"tensorflow, numpy",Image,Image Augmentation,Random Forest,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Precision, Recall",code_281.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,8,32,Cross-Validation,Accuracy,code_282.py
+"tensorflow, scikit-learn",Tabular,Tokenization,CNN,,,25,32,,"Accuracy, Precision",code_283.py
+"tensorflow, scikit-learn",Tabular,Scaling,Transformer,RMSprop,categorical_crossentropy,18,32,Cross-Validation,"Precision, Recall",code_284.py
+"tensorflow, keras",Text,Scaling,Random Forest,,,10,32,,"Accuracy, Recall",code_285.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Transformer,SGD,mean_squared_error,20,64,Validation Split,"Accuracy, Recall",code_286.py
+"tensorflow, keras",Audio,Tokenization,Transformer,,,25,16,,Accuracy,code_287.py
+"tensorflow, scikit-learn",Audio,Scaling,Random Forest,Adam,categorical_crossentropy,8,32,Cross-Validation,"Accuracy, Precision",code_288.py
+"tensorflow, numpy",Audio,Tokenization,Transformer,,,15,16,,"Accuracy, Recall",code_289.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Random Forest,RMSprop,mean_squared_error,8,32,Validation Split,Accuracy,code_290.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,Random Forest,RMSprop,mean_squared_error,10,64,Validation Split,Accuracy,code_291.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,CNN,,,12,64,,"Accuracy, Precision",code_292.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,Adam,categorical_crossentropy,20,16,Cross-Validation,"Accuracy, Precision",code_293.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,RNN,SGD,mean_squared_error,20,32,Validation Split,Accuracy,code_294.py
+"pandas, tensorflow, transformers",Text,Tokenization,RNN,SGD,categorical_crossentropy,20,64,Validation Split,"Accuracy, Recall",code_295.py
+"tensorflow, keras",Image,Image Augmentation,RNN,,,8,32,,"Accuracy, Precision",code_296.py
+"tensorflow, scikit-learn",Tabular,Tokenization,RNN,Adam,categorical_crossentropy,15,16,Validation Split,"Accuracy, Recall",code_297.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,SGD,categorical_crossentropy,12,16,Cross-Validation,"Accuracy, Precision",code_298.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,Random Forest,,,25,16,,Accuracy,code_299.py
+"tensorflow, keras",Audio,Scaling,CNN,RMSprop,categorical_crossentropy,10,64,Validation Split,"Accuracy, Recall",code_300.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,CNN,,,20,16,,"Accuracy, Precision",code_301.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,25,16,Cross-Validation,Accuracy,code_302.py
+"tensorflow, keras",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,15,64,Cross-Validation,"Accuracy, Recall",code_303.py
+"tensorflow, numpy",Text,Image Augmentation,Transformer,RMSprop,mean_squared_error,20,64,Validation Split,"Accuracy, Recall",code_304.py
+"tensorflow, keras",Audio,Scaling,Random Forest,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Precision",code_305.py
+"tensorflow, keras",Audio,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,32,Validation Split,Accuracy,code_306.py
+"tensorflow, scikit-learn",Text,Tokenization,RNN,,,25,32,,"Accuracy, Recall",code_307.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,,,8,32,,Accuracy,code_308.py
+"tensorflow, scikit-learn",Text,Scaling,CNN,RMSprop,categorical_crossentropy,20,32,Validation Split,"Accuracy, Precision",code_309.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,RNN,RMSprop,mean_squared_error,20,16,Cross-Validation,"Accuracy, Recall",code_310.py
+"pandas, tensorflow, transformers",Image,Tokenization,Transformer,,,18,32,,"Accuracy, Recall",code_311.py
+"pandas, scikit-learn",Tabular,Tokenization,Transformer,SGD,categorical_crossentropy,8,64,Validation Split,Accuracy,code_312.py
+"pandas, scikit-learn",Text,Scaling,Random Forest,,,10,32,,"Accuracy, Recall",code_313.py
+"tensorflow, keras",Image,Image Augmentation,Transformer,SGD,mean_squared_error,12,32,Validation Split,"Accuracy, Recall",code_314.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,RNN,Adam,categorical_crossentropy,25,32,Validation Split,"Accuracy, Recall",code_315.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,CNN,,,15,64,,"Accuracy, Recall",code_316.py
+"tensorflow, numpy",Tabular,Tokenization,Random Forest,,,18,16,,"Accuracy, Precision",code_317.py
+"tensorflow, keras",Text,Image Augmentation,Transformer,,,20,64,,Accuracy,code_318.py
+"tensorflow, scikit-learn",Tabular,Tokenization,Transformer,Adam,mean_squared_error,10,64,Cross-Validation,"Accuracy, Precision",code_319.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Transformer,,,25,64,,"Precision, Recall",code_320.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,Adam,mean_squared_error,18,16,Validation Split,"Accuracy, Recall",code_321.py
+"pandas, numpy, tensorflow, sklearn",Text,Image Augmentation,CNN,,,10,64,,"Accuracy, Precision",code_322.py
+"tensorflow, keras, sklearn",Image,Tokenization,Random Forest,RMSprop,categorical_crossentropy,8,16,Validation Split,"Precision, Recall",code_323.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,RNN,,,20,64,,"Accuracy, Recall",code_324.py
+"pandas, scikit-learn",Audio,Tokenization,Transformer,SGD,mean_squared_error,8,16,Validation Split,"Accuracy, Precision",code_325.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,CNN,,,18,64,,Accuracy,code_326.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,Random Forest,Adam,mean_squared_error,20,32,Cross-Validation,"Precision, Recall",code_327.py
+"pandas, tensorflow, transformers",Text,Scaling,RNN,Adam,categorical_crossentropy,20,32,Validation Split,"Precision, Recall",code_328.py
+"pandas, scikit-learn",Audio,Scaling,CNN,SGD,mean_squared_error,8,16,Cross-Validation,"Accuracy, Precision",code_329.py
+"tensorflow, keras",Image,Tokenization,RNN,SGD,categorical_crossentropy,12,32,Cross-Validation,"Precision, Recall",code_330.py
+"pandas, scikit-learn",Audio,Image Augmentation,Transformer,Adam,mean_squared_error,8,32,Validation Split,"Precision, Recall",code_331.py
+"tensorflow, keras",Tabular,Scaling,CNN,Adam,mean_squared_error,12,32,Validation Split,Accuracy,code_332.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,SGD,categorical_crossentropy,20,32,Cross-Validation,"Precision, Recall",code_333.py
+"tensorflow, keras",Audio,Tokenization,Random Forest,SGD,categorical_crossentropy,20,64,Cross-Validation,"Accuracy, Recall",code_334.py
+"pandas, scikit-learn",Text,Scaling,CNN,RMSprop,categorical_crossentropy,20,16,Validation Split,Accuracy,code_335.py
+"pandas, scikit-learn",Image,Tokenization,CNN,SGD,categorical_crossentropy,8,16,Validation Split,Accuracy,code_336.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Image Augmentation,CNN,Adam,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_337.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,CNN,SGD,categorical_crossentropy,10,64,Validation Split,"Accuracy, Precision",code_338.py
+"pandas, tensorflow, transformers",Tabular,Scaling,CNN,,,15,64,,"Precision, Recall",code_339.py
+"pandas, scikit-learn",Image,Image Augmentation,Random Forest,SGD,mean_squared_error,18,64,Validation Split,"Precision, Recall",code_340.py
+"pandas, scikit-learn",Tabular,Scaling,Random Forest,Adam,categorical_crossentropy,8,64,Validation Split,"Accuracy, Precision",code_341.py
+"tensorflow, keras",Text,Tokenization,Random Forest,,,15,16,,"Precision, Recall",code_342.py
+"pandas, scikit-learn",Image,Scaling,Random Forest,,,18,64,,"Accuracy, Recall",code_343.py
+"tensorflow, scikit-learn",Image,Scaling,Random Forest,Adam,mean_squared_error,20,32,Cross-Validation,"Precision, Recall",code_344.py
+"pandas, tensorflow, transformers",Image,Image Augmentation,Random Forest,Adam,mean_squared_error,20,32,Validation Split,"Accuracy, Recall",code_345.py
+"tensorflow, scikit-learn",Text,Tokenization,RNN,SGD,categorical_crossentropy,10,16,Validation Split,Accuracy,code_346.py
+"tensorflow, scikit-learn",Image,Scaling,RNN,RMSprop,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Precision",code_347.py
+"tensorflow, keras",Audio,Tokenization,CNN,,,20,32,,"Accuracy, Precision",code_348.py
+"pandas, scikit-learn",Image,Image Augmentation,Transformer,,,18,32,,"Accuracy, Precision",code_349.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,,,8,64,,Accuracy,code_350.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,Transformer,SGD,categorical_crossentropy,20,16,Validation Split,"Accuracy, Recall",code_351.py
+"tensorflow, keras",Audio,Scaling,Random Forest,Adam,categorical_crossentropy,8,16,Validation Split,Accuracy,code_352.py
+"pandas, tensorflow, transformers",Tabular,Scaling,Transformer,RMSprop,categorical_crossentropy,10,16,Cross-Validation,"Precision, Recall",code_353.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,Random Forest,SGD,categorical_crossentropy,15,16,Cross-Validation,"Accuracy, Recall",code_354.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,RMSprop,mean_squared_error,20,32,Validation Split,"Accuracy, Recall",code_355.py
+"pandas, tensorflow, transformers",Image,Scaling,RNN,Adam,mean_squared_error,15,32,Cross-Validation,"Accuracy, Precision",code_356.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,RMSprop,categorical_crossentropy,18,16,Cross-Validation,"Accuracy, Recall",code_357.py
+"pandas, scikit-learn",Tabular,Image Augmentation,Random Forest,SGD,mean_squared_error,20,32,Validation Split,"Precision, Recall",code_358.py
+"tensorflow, numpy",Image,Scaling,CNN,,,15,64,,"Accuracy, Precision",code_359.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,Adam,categorical_crossentropy,10,64,Cross-Validation,"Accuracy, Recall",code_360.py
+"pandas, scikit-learn",Image,Tokenization,Random Forest,RMSprop,mean_squared_error,15,64,Cross-Validation,Accuracy,code_361.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,RNN,SGD,categorical_crossentropy,12,32,Cross-Validation,"Precision, Recall",code_362.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,Adam,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Recall",code_363.py
+"tensorflow, numpy",Tabular,Image Augmentation,Random Forest,Adam,categorical_crossentropy,12,64,Validation Split,"Precision, Recall",code_364.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,SGD,mean_squared_error,20,32,Cross-Validation,Accuracy,code_365.py
+"tensorflow, numpy",Text,Tokenization,Transformer,RMSprop,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_366.py
+"tensorflow, keras, sklearn",Image,Tokenization,RNN,Adam,mean_squared_error,20,16,Cross-Validation,"Accuracy, Precision",code_367.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,Random Forest,,,10,32,,"Accuracy, Precision",code_368.py
+"tensorflow, keras",Tabular,Tokenization,Random Forest,SGD,mean_squared_error,18,16,Validation Split,"Accuracy, Precision",code_369.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Random Forest,,,25,32,,"Accuracy, Recall",code_370.py
+"pandas, tensorflow, transformers",Text,Scaling,Random Forest,Adam,categorical_crossentropy,15,32,Validation Split,"Precision, Recall",code_371.py
+"tensorflow, scikit-learn",Tabular,Tokenization,CNN,SGD,categorical_crossentropy,15,16,Cross-Validation,"Precision, Recall",code_372.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,Random Forest,,,20,16,,"Accuracy, Recall",code_373.py
+"tensorflow, numpy",Audio,Scaling,Transformer,,,18,16,,"Accuracy, Precision",code_374.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,SGD,mean_squared_error,15,32,Validation Split,Accuracy,code_375.py
+"pandas, numpy, tensorflow, sklearn",Text,Tokenization,CNN,Adam,categorical_crossentropy,25,32,Validation Split,"Accuracy, Precision",code_376.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,CNN,RMSprop,categorical_crossentropy,25,32,Validation Split,Accuracy,code_377.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,SGD,mean_squared_error,25,32,Cross-Validation,Accuracy,code_378.py
+"pandas, numpy, tensorflow, sklearn",Image,Scaling,Transformer,,,25,64,,"Accuracy, Precision",code_379.py
+"tensorflow, keras",Audio,Tokenization,CNN,SGD,mean_squared_error,20,32,Validation Split,"Precision, Recall",code_380.py
+"pandas, scikit-learn",Text,Tokenization,Transformer,RMSprop,categorical_crossentropy,10,64,Cross-Validation,"Accuracy, Precision",code_381.py
+"pandas, scikit-learn",Audio,Scaling,Transformer,RMSprop,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_382.py
+"tensorflow, numpy",Audio,Tokenization,CNN,RMSprop,categorical_crossentropy,12,16,Validation Split,"Accuracy, Recall",code_383.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,Transformer,,,25,16,,Accuracy,code_384.py
+"tensorflow, keras",Tabular,Tokenization,Transformer,Adam,categorical_crossentropy,10,32,Cross-Validation,"Accuracy, Recall",code_385.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,,,18,64,,"Accuracy, Recall",code_386.py
+"tensorflow, scikit-learn",Tabular,Scaling,CNN,,,8,32,,"Accuracy, Recall",code_387.py
+"tensorflow, scikit-learn",Image,Tokenization,Random Forest,RMSprop,mean_squared_error,12,32,Cross-Validation,Accuracy,code_388.py
+"tensorflow, keras, sklearn",Audio,Tokenization,RNN,SGD,mean_squared_error,10,16,Cross-Validation,"Accuracy, Precision",code_389.py
+"tensorflow, keras",Text,Tokenization,RNN,Adam,categorical_crossentropy,8,16,Validation Split,Accuracy,code_390.py
+"tensorflow, keras",Audio,Tokenization,Transformer,SGD,categorical_crossentropy,25,32,Cross-Validation,"Accuracy, Recall",code_391.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,CNN,SGD,categorical_crossentropy,20,32,Validation Split,"Accuracy, Precision",code_392.py
+"pandas, tensorflow, transformers",Audio,Tokenization,CNN,RMSprop,mean_squared_error,25,16,Cross-Validation,"Accuracy, Recall",code_393.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,RNN,Adam,categorical_crossentropy,25,16,Cross-Validation,"Accuracy, Recall",code_394.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Random Forest,,,18,32,,"Accuracy, Precision",code_395.py
+"tensorflow, scikit-learn",Text,Image Augmentation,CNN,RMSprop,categorical_crossentropy,10,64,Validation Split,Accuracy,code_396.py
+"pandas, scikit-learn",Text,Tokenization,RNN,,,10,16,,"Precision, Recall",code_397.py
+"tensorflow, keras",Image,Image Augmentation,Random Forest,SGD,categorical_crossentropy,18,16,Validation Split,Accuracy,code_398.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,Random Forest,Adam,mean_squared_error,15,16,Cross-Validation,"Accuracy, Recall",code_399.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,Adam,mean_squared_error,10,16,Validation Split,"Accuracy, Precision",code_400.py
+"tensorflow, numpy",Tabular,Scaling,RNN,,,12,32,,"Accuracy, Precision",code_401.py
+"pandas, numpy, tensorflow, sklearn",Image,Tokenization,RNN,SGD,mean_squared_error,20,32,Validation Split,"Precision, Recall",code_402.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,Adam,categorical_crossentropy,15,32,Validation Split,"Accuracy, Recall",code_403.py
+"tensorflow, keras",Audio,Image Augmentation,Transformer,Adam,mean_squared_error,12,16,Cross-Validation,"Accuracy, Precision",code_404.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,RNN,RMSprop,mean_squared_error,8,32,Cross-Validation,Accuracy,code_405.py
+"pandas, scikit-learn",Image,Image Augmentation,CNN,Adam,categorical_crossentropy,20,16,Cross-Validation,"Accuracy, Precision",code_406.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,8,64,Validation Split,"Accuracy, Precision",code_407.py
+"tensorflow, keras, sklearn",Audio,Tokenization,RNN,SGD,categorical_crossentropy,8,32,Cross-Validation,Accuracy,code_408.py
+"tensorflow, scikit-learn",Audio,Scaling,RNN,SGD,mean_squared_error,20,16,Cross-Validation,Accuracy,code_409.py
+"tensorflow, scikit-learn",Image,Image Augmentation,Transformer,RMSprop,mean_squared_error,18,16,Cross-Validation,"Accuracy, Precision",code_410.py
+"pandas, numpy, tensorflow, sklearn",Image,Image Augmentation,Transformer,Adam,mean_squared_error,15,32,Cross-Validation,"Accuracy, Recall",code_411.py
+"tensorflow, keras",Text,Scaling,Random Forest,SGD,mean_squared_error,18,32,Validation Split,"Precision, Recall",code_412.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,RMSprop,categorical_crossentropy,10,16,Validation Split,"Accuracy, Precision",code_413.py
+"tensorflow, scikit-learn",Image,Image Augmentation,CNN,,,15,16,,"Precision, Recall",code_414.py
+"tensorflow, keras",Text,Image Augmentation,Random Forest,Adam,categorical_crossentropy,8,32,Cross-Validation,Accuracy,code_415.py
+"tensorflow, keras, sklearn",Audio,Scaling,Random Forest,,,12,32,,Accuracy,code_416.py
+"tensorflow, scikit-learn",Audio,Scaling,RNN,Adam,categorical_crossentropy,20,32,Validation Split,"Accuracy, Precision",code_417.py
+"tensorflow, keras",Text,Scaling,Transformer,,,25,16,,"Precision, Recall",code_418.py
+"pandas, tensorflow, transformers",Audio,Image Augmentation,RNN,SGD,categorical_crossentropy,18,32,Validation Split,"Precision, Recall",code_419.py
+"tensorflow, keras",Image,Tokenization,Transformer,SGD,mean_squared_error,20,32,Cross-Validation,"Accuracy, Recall",code_420.py
+"tensorflow, keras, sklearn",Audio,Tokenization,CNN,,,18,32,,"Precision, Recall",code_421.py
+"pandas, tensorflow, transformers",Text,Scaling,CNN,SGD,categorical_crossentropy,18,16,Validation Split,"Precision, Recall",code_422.py
+"pandas, scikit-learn",Text,Scaling,Transformer,,,15,16,,Accuracy,code_423.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,Transformer,SGD,categorical_crossentropy,10,32,Validation Split,"Accuracy, Recall",code_424.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Tokenization,Random Forest,Adam,mean_squared_error,15,64,Cross-Validation,"Accuracy, Recall",code_425.py
+"tensorflow, scikit-learn",Text,Scaling,Random Forest,,,8,64,,"Accuracy, Precision",code_426.py
+"pandas, numpy, tensorflow, sklearn",Text,Scaling,RNN,SGD,categorical_crossentropy,15,32,Cross-Validation,"Accuracy, Precision",code_427.py
+"tensorflow, keras",Image,Tokenization,Transformer,,,12,32,,"Precision, Recall",code_428.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Transformer,,,15,64,,"Precision, Recall",code_429.py
+"tensorflow, scikit-learn",Image,Tokenization,RNN,SGD,categorical_crossentropy,10,16,Validation Split,"Accuracy, Precision",code_430.py
+"pandas, scikit-learn",Tabular,Scaling,CNN,,,12,16,,"Precision, Recall",code_431.py
+"pandas, tensorflow, transformers",Image,Tokenization,Transformer,,,25,16,,Accuracy,code_432.py
+"pandas, scikit-learn",Audio,Tokenization,RNN,RMSprop,mean_squared_error,25,32,Cross-Validation,Accuracy,code_433.py
+"tensorflow, keras",Audio,Tokenization,RNN,,,8,32,,"Precision, Recall",code_434.py
+"pandas, scikit-learn",Tabular,Tokenization,CNN,RMSprop,categorical_crossentropy,18,64,Validation Split,Accuracy,code_435.py
+"pandas, scikit-learn",Image,Tokenization,Random Forest,,,8,32,,Accuracy,code_436.py
+"tensorflow, scikit-learn",Audio,Image Augmentation,RNN,RMSprop,categorical_crossentropy,12,64,Validation Split,"Precision, Recall",code_437.py
+"pandas, scikit-learn",Audio,Tokenization,Transformer,SGD,categorical_crossentropy,12,32,Validation Split,Accuracy,code_438.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,Transformer,RMSprop,categorical_crossentropy,18,32,Cross-Validation,"Accuracy, Recall",code_439.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,CNN,RMSprop,mean_squared_error,25,64,Cross-Validation,"Accuracy, Recall",code_440.py
+"pandas, scikit-learn",Image,Tokenization,Transformer,,,20,16,,"Accuracy, Recall",code_441.py
+"tensorflow, numpy",Tabular,Image Augmentation,Transformer,RMSprop,mean_squared_error,8,64,Validation Split,"Accuracy, Recall",code_442.py
+"tensorflow, keras",Image,Tokenization,Transformer,SGD,categorical_crossentropy,8,16,Cross-Validation,"Accuracy, Recall",code_443.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Random Forest,,,25,16,,Accuracy,code_444.py
+"pandas, scikit-learn",Tabular,Tokenization,Transformer,RMSprop,mean_squared_error,12,32,Cross-Validation,"Precision, Recall",code_445.py
+"pandas, scikit-learn",Tabular,Tokenization,CNN,SGD,categorical_crossentropy,18,64,Validation Split,"Accuracy, Precision",code_446.py
+"tensorflow, keras",Audio,Scaling,RNN,RMSprop,categorical_crossentropy,8,64,Cross-Validation,"Accuracy, Precision",code_447.py
+"tensorflow, keras",Text,Tokenization,CNN,,,18,16,,"Accuracy, Precision",code_448.py
+"tensorflow, keras",Audio,Scaling,CNN,RMSprop,mean_squared_error,12,16,Cross-Validation,"Accuracy, Recall",code_449.py
+"pandas, numpy, tensorflow, sklearn",Audio,Scaling,Random Forest,Adam,mean_squared_error,12,16,Cross-Validation,"Precision, Recall",code_450.py
+"tensorflow, numpy",Image,Image Augmentation,Random Forest,SGD,categorical_crossentropy,8,64,Cross-Validation,Accuracy,code_451.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,,,20,64,,Accuracy,code_452.py
+"tensorflow, numpy",Audio,Image Augmentation,Random Forest,,,25,16,,"Precision, Recall",code_453.py
+"tensorflow, numpy",Tabular,Scaling,RNN,RMSprop,mean_squared_error,12,16,Validation Split,"Accuracy, Precision",code_454.py
+"pandas, scikit-learn",Audio,Image Augmentation,CNN,,,20,64,,"Accuracy, Precision",code_455.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,RNN,SGD,mean_squared_error,8,16,Validation Split,"Precision, Recall",code_456.py
+"tensorflow, numpy",Tabular,Tokenization,RNN,SGD,categorical_crossentropy,8,32,Cross-Validation,"Accuracy, Precision",code_457.py
+"tensorflow, keras",Audio,Image Augmentation,RNN,,,8,32,,"Accuracy, Precision",code_458.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Random Forest,,,8,32,,Accuracy,code_459.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,Random Forest,SGD,categorical_crossentropy,25,32,Validation Split,"Precision, Recall",code_460.py
+"tensorflow, scikit-learn",Audio,Tokenization,RNN,RMSprop,categorical_crossentropy,8,32,Validation Split,"Precision, Recall",code_461.py
+"pandas, scikit-learn",Image,Tokenization,RNN,,,25,16,,"Accuracy, Precision",code_462.py
+"pandas, tensorflow, transformers",Text,Scaling,CNN,RMSprop,mean_squared_error,25,16,Validation Split,"Accuracy, Precision",code_463.py
+"tensorflow, keras, sklearn",Tabular,Tokenization,CNN,,,20,32,,"Accuracy, Recall",code_464.py
+"tensorflow, scikit-learn",Text,Tokenization,RNN,,,10,64,,Accuracy,code_465.py
+"tensorflow, keras",Audio,Image Augmentation,Random Forest,Adam,mean_squared_error,18,16,Validation Split,"Precision, Recall",code_466.py
+"tensorflow, keras",Image,Image Augmentation,CNN,,,25,64,,Accuracy,code_467.py
+"pandas, tensorflow, transformers",Tabular,Image Augmentation,CNN,SGD,categorical_crossentropy,10,32,Validation Split,"Accuracy, Recall",code_468.py
+"tensorflow, numpy",Tabular,Tokenization,Random Forest,,,20,64,,"Accuracy, Precision",code_469.py
+"tensorflow, keras, sklearn",Tabular,Image Augmentation,RNN,Adam,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_470.py
+"pandas, numpy, tensorflow, sklearn",Tabular,Scaling,CNN,SGD,categorical_crossentropy,15,64,Cross-Validation,"Precision, Recall",code_471.py
+"tensorflow, keras, sklearn",Image,Tokenization,RNN,Adam,mean_squared_error,20,64,Validation Split,"Accuracy, Recall",code_472.py
+"tensorflow, keras",Audio,Image Augmentation,Transformer,,,25,16,,Accuracy,code_473.py
+"pandas, scikit-learn",Audio,Image Augmentation,Random Forest,Adam,mean_squared_error,15,32,Validation Split,"Accuracy, Precision",code_474.py
+"pandas, scikit-learn",Image,Scaling,Transformer,SGD,categorical_crossentropy,18,16,Cross-Validation,"Accuracy, Recall",code_475.py
+"tensorflow, keras, sklearn",Image,Tokenization,Transformer,SGD,categorical_crossentropy,18,64,Cross-Validation,"Precision, Recall",code_476.py
+"pandas, tensorflow, transformers",Audio,Scaling,Transformer,SGD,mean_squared_error,8,16,Cross-Validation,"Precision, Recall",code_477.py
+"pandas, tensorflow, transformers",Text,Tokenization,Random Forest,Adam,mean_squared_error,15,32,Validation Split,Accuracy,code_478.py
+"tensorflow, scikit-learn",Audio,Tokenization,Transformer,SGD,mean_squared_error,10,64,Validation Split,Accuracy,code_479.py
+"tensorflow, keras",Audio,Image Augmentation,Transformer,,,15,16,,"Accuracy, Recall",code_480.py
+"pandas, scikit-learn",Tabular,Image Augmentation,RNN,,,10,64,,"Precision, Recall",code_481.py
+"pandas, tensorflow, transformers",Image,Scaling,Random Forest,SGD,mean_squared_error,10,32,Cross-Validation,"Accuracy, Recall",code_482.py
+"pandas, numpy, tensorflow, sklearn",Audio,Image Augmentation,Transformer,RMSprop,mean_squared_error,20,16,Cross-Validation,"Accuracy, Recall",code_483.py
+"tensorflow, keras",Tabular,Tokenization,CNN,,,12,64,,"Accuracy, Precision",code_484.py
+"tensorflow, keras",Audio,Image Augmentation,Random Forest,,,12,32,,"Accuracy, Precision",code_485.py
+"pandas, tensorflow, transformers",Audio,Scaling,Random Forest,RMSprop,categorical_crossentropy,15,16,Cross-Validation,"Accuracy, Recall",code_486.py
+"tensorflow, keras",Text,Tokenization,RNN,,,8,64,,"Accuracy, Recall",code_487.py
+"pandas, scikit-learn",Image,Image Augmentation,Random Forest,SGD,mean_squared_error,8,32,Cross-Validation,"Accuracy, Precision",code_488.py
+"pandas, numpy, tensorflow, sklearn",Audio,Tokenization,Transformer,RMSprop,mean_squared_error,10,32,Validation Split,"Accuracy, Precision",code_489.py
+"tensorflow, keras, sklearn",Tabular,Scaling,Transformer,SGD,mean_squared_error,20,16,Validation Split,Accuracy,code_490.py
+"tensorflow, keras",Audio,Image Augmentation,RNN,,,15,16,,"Accuracy, Precision",code_491.py
+"pandas, tensorflow, transformers",Image,Tokenization,Random Forest,,,8,16,,"Accuracy, Recall",code_492.py
+"tensorflow, keras, sklearn",Audio,Image Augmentation,CNN,,,10,16,,Accuracy,code_493.py
+"tensorflow, numpy",Audio,Scaling,Transformer,Adam,categorical_crossentropy,20,32,Cross-Validation,Accuracy,code_494.py
+"pandas, tensorflow, transformers",Tabular,Tokenization,Transformer,,,25,64,,"Precision, Recall",code_495.py
+"pandas, tensorflow, transformers",Text,Image Augmentation,CNN,SGD,mean_squared_error,18,32,Cross-Validation,Accuracy,code_496.py
+"pandas, scikit-learn",Text,Scaling,CNN,Adam,categorical_crossentropy,18,16,Validation Split,"Precision, Recall",code_497.py
+"tensorflow, numpy",Audio,Image Augmentation,Random Forest,,,18,16,,"Accuracy, Recall",code_498.py
+"tensorflow, numpy",Tabular,Scaling,CNN,,,12,16,,"Precision, Recall",code_499.py
+"pandas, scikit-learn",Text,Image Augmentation,CNN,RMSprop,mean_squared_error,15,32,Validation Split,"Accuracy, Recall",code_500.py

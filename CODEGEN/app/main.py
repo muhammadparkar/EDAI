@@ -8,8 +8,7 @@ import os
 import collections
 import utils
 
-
-
+from train_and_generate import train_and_generate_template
 
 
 # Set up github access for "Open in Colab" button.
@@ -54,16 +53,6 @@ st.markdown("<br>", unsafe_allow_html=True)
 ---
 """
 
-# Compile a dictionary of all templates based on the subdirs in traingenerator/templates
-# (excluding the "example" template).
-# Format:
-# {
-#     "task1": "path/to/template",
-#     "task2": {
-#         "framework1": "path/to/template",
-#         "framework2": "path/to/template"
-#     },
-# }
 template_dict = collections.defaultdict(dict)
 template_dirs = [
     f for f in os.scandir("templates") if f.is_dir() and f.name != "example"
@@ -73,6 +62,8 @@ template_dirs = [
 template_dirs = sorted(template_dirs, key=lambda e: e.name)
 for template_dir in template_dirs:
     try:
+        
+        generated_template_path = train_and_generate_template()
         # Templates with task + framework.
         task, framework = template_dir.name.split("_")
         template_dict[task][framework] = template_dir.path
@@ -128,9 +119,6 @@ with col3:
     utils.download_button(notebook, "generated-notebook.ipynb", "📓 Download (.ipynb)")
 colab_error = st.empty()
 
-# st.success(
-#     "Enjoy this site? Leave a star on [the Github repo](https://github.com/jrieke/traingenerator) :)"
-# )
 
 # Display code.
 # TODO: Think about writing Installs on extra line here.
